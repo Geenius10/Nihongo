@@ -1,413 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-    <title>VocaPulse Pro</title>
-    <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#0b0c10">
-    <style>
-        :root {
-            --bg: #0d0e15;
-            --card: #181926;
-            --border: rgba(255, 255, 255, 0.1);
-            --text: #ffffff;
-            --text-sub: #94a3b8;
-            --accent: #ff3366;
-            --green: #2ed573;
-            --yellow: #ff9f1c;
-        }
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#171923"><meta name="description" content="VocaPulse – mehrsprachige Sprachlern-App mit Vokabeln, Grammatik, Übersetzung und Dojo.">
+<link rel="manifest" href="./manifest.webmanifest"><title>VocaPulse</title>
+<style>
+:root{--bg:#171923;--bg2:#1d2030;--panel:#222638;--panel2:#292e42;--line:#3a4057;--text:#f4f5f9;--muted:#aeb4c6;--violet:#b6a1ff;--cyan:#7dd8e8;--green:#8ed6b0;--yellow:#e7c77c;--red:#e79aaa;--shadow:0 16px 50px #080a10aa}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden}body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:radial-gradient(900px 600px at 10% -15%,#35344d 0,transparent 55%),radial-gradient(800px 500px at 100% 10%,#213945 0,transparent 50%),var(--bg);color:var(--text)}button,input,select{font:inherit}button{cursor:pointer}.app{height:100dvh;min-height:100svh;display:grid;grid-template-rows:auto 1fr auto;padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}
+header{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px max(14px,env(safe-area-inset-left)) 9px;border-bottom:1px solid #ffffff0d;background:#171923dd;backdrop-filter:blur(18px);min-height:58px}.brand{display:flex;align-items:center;gap:9px;min-width:0}.logo{width:36px;height:36px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(135deg,var(--violet),var(--cyan));color:#181a25;font-weight:950}.brand b{font-size:1rem}.brand small{display:block;color:var(--muted);font-size:.68rem}.topstats{display:flex;gap:6px}.pill{background:#ffffff08;border:1px solid #ffffff10;border-radius:999px;padding:6px 9px;font-size:.72rem;color:var(--muted)}.pill strong{color:#fff}
+main{min-height:0;overflow:hidden;padding:10px 12px 8px}.view{height:100%;min-height:0;display:none;flex-direction:column;gap:9px}.view.active{display:flex}.scroll{overflow:auto;min-height:0;padding-bottom:8px}.tabs{display:flex;gap:6px;overflow:auto;scrollbar-width:none}.tabs::-webkit-scrollbar{display:none}.tab{white-space:nowrap;border:1px solid var(--line);background:#ffffff05;border-radius:12px;padding:8px 11px;color:var(--muted);font-weight:800;font-size:.76rem}.tab.active{background:#b6a1ff18;border-color:#b6a1ff55;color:#fff}.toolbar{display:flex;gap:7px;align-items:center;flex-wrap:wrap}.select,.search{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:9px 10px;color:var(--text);outline:none}.search{flex:1;min-width:130px}.primary,.secondary,.ghost{border:1px solid var(--line);border-radius:12px;padding:9px 12px;background:#ffffff09;color:#fff;font-weight:800}.primary{background:#b6a1ff1b;border-color:#b6a1ff55}.secondary{background:#7dd8e811;border-color:#7dd8e844}.ghost{color:var(--muted)}.seg{display:flex;background:#ffffff05;border:1px solid var(--line);padding:3px;border-radius:12px}.seg button{border:0;background:transparent;color:var(--muted);padding:7px 9px;border-radius:9px;font-weight:800;font-size:.74rem}.seg button.active{background:#ffffff12;color:#fff}
+.progress{height:5px;border-radius:99px;background:#ffffff0a;overflow:hidden}.progress i{display:block;height:100%;background:linear-gradient(90deg,var(--violet),var(--cyan));border-radius:99px;width:0}.study{display:flex;flex-direction:column;min-height:0;flex:1}.cardwrap{flex:1;min-height:0;display:grid;place-items:center;perspective:1200px;padding:3px 0}.card{width:min(100%,470px);height:min(57dvh,450px);min-height:245px;position:relative;transform-style:preserve-3d;transition:transform .46s cubic-bezier(.2,.75,.2,1)}.card.flip{transform:rotateY(180deg)}.face{position:absolute;inset:0;backface-visibility:hidden;background:linear-gradient(145deg,#252a3d,#202435);border:1px solid #ffffff10;border-radius:27px;padding:21px;box-shadow:var(--shadow);display:flex;flex-direction:column;justify-content:space-between;overflow:hidden}.face:after{content:"";position:absolute;width:240px;height:240px;border-radius:50%;background:#b6a1ff0d;right:-100px;top:-100px}.back{transform:rotateY(180deg);background:linear-gradient(145deg,#292f43,#202435)}.meta{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:1}.tag{border:1px solid #b6a1ff40;background:#b6a1ff12;color:#ded6ff;border-radius:999px;padding:5px 9px;font-size:.67rem;font-weight:900}.iconbtn{width:38px;height:38px;border:1px solid var(--line);border-radius:50%;background:#ffffff08;color:#fff}.center{text-align:center;position:relative;z-index:1}.word{font-size:clamp(2rem,8vw,3.35rem);font-weight:900;letter-spacing:-.045em;word-break:break-word}.reading{margin-top:7px;color:var(--cyan);font-weight:700}.type{margin-top:6px;color:var(--muted);font-size:.8rem}.hint{text-align:center;color:var(--muted);font-size:.7rem}.meaning{font-size:clamp(1.45rem,5vw,2.05rem);font-weight:900;color:var(--green)}.senses{margin-top:10px;display:flex;gap:6px;justify-content:center;flex-wrap:wrap}.sense{padding:5px 8px;background:#ffffff08;border:1px solid var(--line);border-radius:9px;font-size:.7rem;color:var(--muted)}.example{background:#151824aa;border:1px solid #ffffff0c;border-radius:14px;padding:12px;font-size:.8rem;line-height:1.45;color:#dbe1ef}.actions{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding-top:7px}.action{border:1px solid var(--line);border-radius:14px;padding:11px 7px;background:#ffffff08;font-weight:850;font-size:.77rem}.action.again{border-color:#e79aaa44;color:#f0b0bc}.action.hard{border-color:#e7c77c44;color:#efd68f}.action.good{border-color:#8ed6b044;color:#a5e2c1}.action:active{transform:translateY(1px)}
+.hero{background:linear-gradient(145deg,#252a3ddd,#202435dd);border:1px solid #ffffff0d;border-radius:20px;padding:15px}.hero h2{margin:0 0 5px;font-size:1.1rem}.hero p{margin:0;color:var(--muted);font-size:.78rem;line-height:1.45}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.statcard,.listcard,.grammar,.result{background:#ffffff06;border:1px solid var(--line);border-radius:16px;padding:12px}.statcard b{font-size:1.45rem}.statcard span{display:block;color:var(--muted);font-size:.7rem;margin-top:2px}.list{display:flex;flex-direction:column;gap:7px}.listcard{display:flex;justify-content:space-between;align-items:center;gap:10px}.listcard .main{min-width:0}.listcard b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.listcard small{color:var(--muted)}.badge{font-size:.66rem;padding:5px 8px;border-radius:999px;background:#ffffff0a;color:var(--muted);white-space:nowrap}.grammar h3{margin:0 0 6px;font-size:.92rem}.grammar p{margin:0;color:var(--muted);font-size:.77rem;line-height:1.5}.grammar .example{margin-top:9px}.modegrid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.mode{border:1px solid var(--line);border-radius:16px;padding:13px;background:#ffffff06;text-align:left}.mode strong{display:block}.mode small{color:var(--muted)}.mode.active{border-color:#b6a1ff55;background:#b6a1ff12}.answerbox{display:flex;gap:7px}.answerbox input{flex:1;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:11px;color:#fff;outline:none}.choices{display:grid;grid-template-columns:repeat(2,1fr);gap:7px}.choice{border:1px solid var(--line);background:#ffffff07;border-radius:13px;padding:11px;text-align:left}.choice.correct{border-color:#8ed6b066;background:#8ed6b012}.choice.wrong{border-color:#e79aaa66;background:#e79aaa12}.result strong{display:block;margin-bottom:4px}.result p{margin:0;color:var(--muted);line-height:1.45;font-size:.78rem}.direction{display:grid;grid-template-columns:1fr auto 1fr;gap:7px;align-items:center}.direction .swap{width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:#ffffff08}.dicthead{display:flex;gap:8px;align-items:center}.dictword{font-size:1.65rem;font-weight:900}.senseRow{display:grid;grid-template-columns:75px 1fr;gap:8px;padding:9px 0;border-bottom:1px solid #ffffff0a}.senseRow:last-child{border-bottom:0}.senseRow span{color:var(--muted);font-size:.72rem}.linkrow{display:flex;gap:7px;flex-wrap:wrap;margin-top:10px}nav{display:grid;grid-template-columns:repeat(5,1fr);min-height:66px;border-top:1px solid #ffffff0d;background:#171923e8;backdrop-filter:blur(18px);padding:6px 7px max(6px,env(safe-area-inset-bottom))}.navbtn{border:0;background:transparent;color:var(--muted);border-radius:14px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:2px;font-size:.61rem;font-weight:800}.navbtn span:first-child{font-size:1.12rem}.navbtn.active{background:#b6a1ff12;color:#ddd5ff}.toast{position:fixed;left:50%;bottom:calc(76px + env(safe-area-inset-bottom));transform:translateX(-50%) translateY(18px);background:#292e42ee;border:1px solid var(--line);padding:10px 14px;border-radius:12px;color:#fff;font-size:.76rem;opacity:0;pointer-events:none;transition:.22s;z-index:50;max-width:88vw;text-align:center}.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}.hidden{display:none!important}
+@media(max-height:650px){header{min-height:50px;padding-block:7px}.app main{padding-top:7px}.card{height:min(51dvh,330px);min-height:220px}.face{padding:17px}.word{font-size:clamp(1.7rem,7vw,2.5rem)}nav{min-height:58px}.navbtn span:first-child{font-size:1rem}}@media(min-width:800px){main{max-width:960px;width:100%;margin:auto}.card{height:430px}.view{gap:11px}}
+</style></head>
+<body><div class="app">
+<header><div class="brand"><div class="logo">V</div><div><b>VocaPulse</b><small>Learn deeper · remember longer</small></div></div><div class="topstats"><div class="pill">🔥 <strong id="streak">0</strong></div><div class="pill">XP <strong id="xp">0</strong></div></div></header>
+<main>
+<section id="learn" class="view active"><div class="tabs" id="srcTabs"></div><div class="toolbar"><select class="select" id="target"></select><div class="seg" id="level"></div><button class="secondary" id="shuffle">↝ Mix</button></div><div class="progress"><i id="bar"></i></div><div class="study"><div class="cardwrap"><div class="card" id="card"><div class="face front"><div class="meta"><span class="tag" id="levelTag">A1</span><button class="iconbtn" id="speakFront">🔊</button></div><div class="center"><div class="word" id="frontWord">–</div><div class="reading" id="reading"></div><div class="type" id="frontMeta"></div></div><div class="hint">Tippen zum Aufdecken · Leertaste</div></div><div class="face back"><div class="meta"><span class="tag">Bedeutungen</span><button class="iconbtn" id="speakBack">🔊</button></div><div class="center"><div class="meaning" id="backWord">–</div><div class="senses" id="senses"></div></div><div class="example" id="example">Versuche das Wort erst aus dem Gedächtnis.</div><div class="hint">Wie sicher warst du?</div></div></div></div><div class="actions"><button class="action again" id="again">Noch nicht</button><button class="action hard" id="hard">Unsicher</button><button class="action good" id="good">Gewusst</button></div></div></section>
 
-        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; user-select: none; }
-        body { background: var(--bg); color: var(--text); height: 100dvh; display: flex; flex-direction: column; overflow: hidden; }
+<section id="vocab" class="view"><div class="toolbar"><input id="vocabSearch" class="search" placeholder="Vokabel, Bedeutung oder Kategorie suchen…"><select class="select" id="vocabLevel"></select><button class="ghost" id="vocabRefresh">Aktualisieren</button></div><div class="hero"><h2 id="vocabCount">0 Einträge</h2><p>Wörterbuchansicht im LEO-Stil: mehrere Bedeutungen, Wortart, Niveau und alle verfügbaren Sprachäquivalente.</p></div><div class="scroll" id="vocabList"></div></section>
 
-        /* Header */
-        header { padding: 12px 16px; display: flex; justify-content: space-between; align-items: center; background: rgba(24, 25, 38, 0.8); backdrop-filter: blur(10px); }
-        .logo { font-weight: 900; font-size: 1.2rem; color: var(--accent); }
-        .stats { display: flex; gap: 10px; font-weight: 700; font-size: 0.85rem; }
+<section id="grammar" class="view"><div class="tabs" id="grammarTabs"></div><div class="toolbar"><select class="select" id="grammarLevel"></select><input class="search" id="grammarSearch" placeholder="Grammatikthema suchen…"></div><div class="scroll" id="grammarList"></div></section>
 
-        /* Main Screen Container */
-        main { flex: 1; display: flex; flex-direction: column; padding: 12px; overflow: hidden; position: relative; }
-        .view { display: none; flex-direction: column; height: 100%; justify-content: space-between; }
-        .view.active { display: flex; }
+<section id="translate" class="view"><div class="hero"><h2>🌍 Übersetzen</h2><p>Jede unterstützte Sprache kann in jede andere übersetzen. Für bekannte Katalogbegriffe arbeitet VocaPulse offline; bei unbekannten Texten kann online eine Übersetzungsmaschine verwendet werden.</p></div><div class="direction"><select class="select" id="from"></select><button class="swap" id="swap">⇄</button><select class="select" id="to"></select></div><textarea id="translateInput" class="search" style="min-height:110px;resize:vertical" placeholder="Text eingeben…"></textarea><div class="toolbar"><button class="primary" id="translateBtn">Übersetzen</button><button class="secondary" id="speakTranslation">🔊 Vorlesen</button></div><div id="translationResult"></div><div class="result"><strong>Online-Fallback</strong><p>Wenn der Begriff nicht im lokalen Katalog vorhanden ist, kann die App mit Internetzugang MyMemory als Fallback anfragen. Für sensible Inhalte bitte keinen externen Übersetzungsdienst verwenden.</p></div></section>
 
-        /* Language Switcher */
-        .lang-bar { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 8px; flex-shrink: 0; }
-        .lang-btn { padding: 6px 12px; background: rgba(255,255,255,0.05); border: 1px solid var(--border); border-radius: 12px; color: var(--text-sub); font-size: 0.8rem; font-weight: 700; white-space: nowrap; cursor: pointer; }
-        .lang-btn.active { background: var(--text); color: var(--bg); }
+<section id="dojo" class="view"><div class="hero"><h2>🥋 Dojo</h2><p>Dein Fehlertraining. Nicht einfach wiederholen, sondern aktiv abrufen, tippen, auswählen und hören. Karten bleiben so lange im Dojo, bis sie stabil sitzen.</p></div><div class="modegrid"><button class="mode active" data-mode="recall"><strong>🧠 Abrufen</strong><small>Wort sehen → Lösung erinnern</small></button><button class="mode" data-mode="type"><strong>✍️ Tippen</strong><small>Antwort selbst eingeben</small></button><button class="mode" data-mode="choice"><strong>🎯 Auswahl</strong><small>Eine von vier Antworten</small></button><button class="mode" data-mode="listen"><strong>👂 Hören</strong><small>Audio → Bedeutung erkennen</small></button></div><button class="primary" id="dojoStart">Dojo-Runde starten</button><div class="scroll" id="dojoList"></div></section>
 
-        /* Mode Filter */
-        .mode-bar { display: flex; background: rgba(255,255,255,0.05); border-radius: 10px; padding: 2px; margin-bottom: 8px; flex-shrink: 0; }
-        .mode-btn { flex: 1; text-align: center; padding: 6px; font-size: 0.8rem; font-weight: 700; color: var(--text-sub); border-radius: 8px; cursor: pointer; }
-        .mode-btn.active { background: rgba(255,255,255,0.15); color: #fff; }
-
-        /* Card Container - Perfectly Scaled */
-        .card-stage { flex: 1; display: flex; align-items: center; justify-content: center; perspective: 1000px; margin: 8px 0; min-height: 0; }
-        .card { width: 100%; max-width: 360px; height: 100%; max-height: 380px; position: relative; transform-style: preserve-3d; transition: transform 0.5s; cursor: pointer; }
-        .card.flipped { transform: rotateY(180deg); }
-
-        .face { position: absolute; inset: 0; backface-visibility: hidden; border-radius: 20px; background: var(--card); border: 1px solid var(--border); padding: 20px; display: flex; flex-direction: column; justify-content: space-between; text-align: center; }
-        .face.back { transform: rotateY(180deg); background: #131522; }
-
-        .tag { align-self: flex-start; font-size: 0.7rem; font-weight: 800; padding: 3px 8px; border-radius: 6px; background: rgba(255,51,102,0.2); color: var(--accent); }
-        .word { font-size: 2rem; font-weight: 800; margin-top: 10px; }
-        .script { font-size: 0.95rem; color: var(--accent); font-weight: 600; }
-        .ipa { font-size: 0.85rem; color: var(--text-sub); font-family: monospace; }
-        .trans { font-size: 1.5rem; font-weight: 700; color: var(--green); }
-        .syn { font-size: 0.8rem; color: var(--text-sub); }
-        .ex { font-size: 0.8rem; background: rgba(0,0,0,0.3); padding: 8px; border-radius: 8px; text-align: left; margin-top: 8px; }
-
-        .speaker { position: absolute; top: 18px; right: 18px; background: rgba(255,255,255,0.1); border: none; color: #fff; border-radius: 50%; width: 36px; height: 36px; font-size: 1rem; cursor: pointer; }
-
-        /* Action Buttons */
-        .actions { display: flex; gap: 10px; flex-shrink: 0; }
-        .btn { flex: 1; padding: 14px; border: none; border-radius: 14px; font-weight: 800; font-size: 0.95rem; cursor: pointer; }
-        .btn-again { background: rgba(255,51,102,0.2); color: var(--accent); border: 1px solid var(--accent); }
-        .btn-pass { background: var(--green); color: #000; }
-
-        /* Grammar List */
-        .grammar-list { overflow-y: auto; display: flex; flex-direction: column; gap: 10px; height: 100%; }
-        .g-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 14px; }
-        .g-title { font-weight: 800; color: var(--yellow); margin-bottom: 6px; }
-        .g-rule { font-size: 0.85rem; color: #ccc; line-height: 1.4; }
-
-        /* Quiz Options */
-        .quiz-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; width: 100%; flex-shrink: 0; }
-        .q-btn { background: rgba(255,255,255,0.08); border: 1px solid var(--border); color: #fff; padding: 14px; border-radius: 12px; font-weight: 700; text-align: center; font-size: 0.85rem; cursor: pointer; }
-
-        /* Bottom Nav */
-        nav { height: 60px; background: #08090d; border-top: 1px solid var(--border); display: flex; justify-content: space-around; align-items: center; flex-shrink: 0; }
-        .nav-btn { display: flex; flex-direction: column; align-items: center; gap: 2px; color: var(--text-sub); font-size: 0.7rem; font-weight: 700; cursor: pointer; width: 25%; }
-        .nav-btn.active { color: var(--accent); }
-        .nav-btn span:first-child { font-size: 1.2rem; }
-    </style>
-</head>
-<body>
-
-    <header>
-        <div class="logo">⚡ VOCAPULSE</div>
-        <div class="stats">
-            <div>🔥 <span id="st-streak">1</span></div>
-            <div>💎 <span id="st-xp">0</span> XP</div>
-        </div>
-    </header>
-
-    <main>
-        <!-- TAB 1: VOKABELN & QUIZ -->
-        <div id="view-vocab" class="view active">
-            <div class="lang-bar" id="lang-bar"></div>
-            
-            <div class="mode-bar">
-                <div class="mode-btn active" onclick="setMode('cards')">Karteikarten</div>
-                <div class="mode-btn" onclick="setMode('quiz')">Blitz-Quiz</div>
-            </div>
-
-            <!-- CARDS MODE -->
-            <div id="cards-mode" style="height:100%; display:flex; flex-direction:column; justify-content:space-between;">
-                <div class="card-stage">
-                    <div class="card" id="main-card" onclick="this.classList.toggle('flipped')">
-                        <div class="face front">
-                            <span class="tag" id="c-level">A1</span>
-                            <button class="speaker" onclick="speak(event)">🔊</button>
-                            <div>
-                                <div class="word" id="c-word">...</div>
-                                <div class="script" id="c-script"></div>
-                                <div class="ipa" id="c-ipa"></div>
-                            </div>
-                            <div style="font-size: 0.7rem; color: var(--text-sub);">Tippen zum Drehen ↺</div>
-                        </div>
-                        <div class="face back">
-                            <span class="tag" style="background:rgba(46,213,115,0.2); color:var(--green);">Bedeutung</span>
-                            <div>
-                                <div class="trans" id="c-trans">...</div>
-                                <div class="syn" id="c-syn"></div>
-                            </div>
-                            <div class="ex" id="c-ex"></div>
-                            <div style="font-size: 0.7rem; color: var(--text-sub);">Tippen zum Drehen ↺</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="actions">
-                    <button class="btn btn-again" onclick="answer(false)">Nochmal</button>
-                    <button class="btn btn-pass" onclick="answer(true)">Gelernt (+10 XP)</button>
-                </div>
-            </div>
-
-            <!-- QUIZ MODE -->
-            <div id="quiz-mode" style="height:100%; display:none; flex-direction:column; justify-content:space-between;">
-                <div style="background:var(--card); border:1px solid var(--border); border-radius:20px; padding:20px; text-align:center; margin-auto:0;">
-                    <span class="tag" id="q-level">A1</span>
-                    <div class="word" id="q-word" style="margin:15px 0 5px;">...</div>
-                    <div class="script" id="q-script"></div>
-                </div>
-                <div class="quiz-grid" id="q-options"></div>
-            </div>
-        </div>
-
-        <!-- TAB 2: GRAMMATIK -->
-        <div id="view-grammar" class="view">
-            <div class="lang-bar" id="grammar-lang-bar"></div>
-            <div class="grammar-list" id="grammar-container"></div>
-        </div>
-
-        <!-- TAB 3: DOJO -->
-        <div id="view-dojo" class="view">
-            <div style="text-align:center; padding:10px; background:rgba(255,51,102,0.1); border:1px solid var(--accent); border-radius:12px; margin-bottom:10px;">
-                <div style="font-weight:800; color:var(--accent);">🥷 DEIN DOJO</div>
-                <div style="font-size:0.75rem; color:var(--text-sub);">Fehler landen automatisch hier.</div>
-            </div>
-            <div id="dojo-stage" style="flex:1; display:flex; flex-direction:column; justify-content:space-between;">
-                <div class="card-stage">
-                    <div class="card" id="dojo-card" onclick="this.classList.toggle('flipped')">
-                        <div class="face front">
-                            <span class="tag">DOJO</span>
-                            <button class="speaker" onclick="speakDojo(event)">🔊</button>
-                            <div>
-                                <div class="word" id="d-word">...</div>
-                                <div class="script" id="d-script"></div>
-                            </div>
-                            <div style="font-size:0.7rem; color:var(--text-sub);">Tippen zum Drehen</div>
-                        </div>
-                        <div class="face back">
-                            <div class="trans" id="d-trans">...</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="actions">
-                    <button class="btn btn-again" onclick="answerDojo(false)">Noch nicht</button>
-                    <button class="btn btn-pass" onclick="answerDojo(true)">Gemeistert</button>
-                </div>
-            </div>
-        </div>
-
-        <!-- TAB 4: PROFIL -->
-        <div id="view-profile" class="view" style="justify-content:flex-start; gap:15px;">
-            <h3 style="text-align:center;">Dein Fortschritt</h3>
-            <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
-                <div style="background:var(--card); padding:15px; border-radius:12px; text-align:center; border:1px solid var(--border);">
-                    <div style="font-size:1.5rem; font-weight:800; color:var(--green);" id="p-learned">0</div>
-                    <div style="font-size:0.75rem; color:var(--text-sub);">Gelernt</div>
-                </div>
-                <div style="background:var(--card); padding:15px; border-radius:12px; text-align:center; border:1px solid var(--border);">
-                    <div style="font-size:1.5rem; font-weight:800; color:var(--accent);" id="p-dojo">0</div>
-                    <div style="font-size:0.75rem; color:var(--text-sub);">Im Dojo</div>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <!-- Bottom Navigation -->
-    <nav>
-        <div class="nav-btn active" onclick="nav('vocab')"><span>🎴</span><span>Vokabeln</span></div>
-        <div class="nav-btn" onclick="nav('grammar')"><span>📖</span><span>Grammatik</span></div>
-        <div class="nav-btn" onclick="nav('dojo')"><span>🥷</span><span>Dojo</span></div>
-        <div class="nav-btn" onclick="nav('profile')"><span>📊</span><span>Profil</span></div>
-    </nav>
-
-    <script>
-        // DATENBANK (JA, ES, EN, FR, IT, PT)
-        const DB = {
-            ja: [
-                { w: "水", s: "みず (Mizu)", ipa: "/mizu/", l: "A1", t: "Wasser", ex: "水を飲みます (Ich trinke Wasser)" },
-                { w: "食べる", s: "たべる (Taberu)", ipa: "/taberu/", l: "A1", t: "essen", ex: "ご飯を食べる (Reis essen)" },
-                { w: "素晴らしい", s: "すばらしい", ipa: "/subarashii/", l: "A2", t: "wunderbar / großartig", ex: "素晴らしい日 (Ein wunderbarer Tag)" }
-            ],
-            es: [
-                { w: "Agua", s: "Substantiv (f)", ipa: "/ˈaɡwa/", l: "A1", t: "Wasser", ex: "Un vaso de agua, por favor." },
-                { w: "Comer", s: "Verb", ipa: "/koˈmeɾ/", l: "A1", t: "essen / speisen", ex: "Vamos a comer." }
-            ],
-            en: [
-                { w: "Water", s: "Noun", ipa: "/ˈwɔːtər/", l: "A1", t: "Wasser", ex: "Drink more water." },
-                { w: "Ubiquitous", s: "Adjective", ipa: "/juːˈbɪkwɪtəs/", l: "C1", t: "allgegenwärtig", ex: "Smartphones are ubiquitous." }
-            ],
-            fr: [
-                { w: "Eau", s: "Substantif (f)", ipa: "/o/", l: "A1", t: "Wasser", ex: "L'eau est froide." }
-            ],
-            it: [
-                { w: "Acqua", s: "Sostantivo (f)", ipa: "/ˈakkwa/", l: "A1", t: "Wasser", ex: "Un bicchiere d'acqua." }
-            ],
-            pt: [
-                { w: "Água", s: "Substantivo (f)", ipa: "/ˈaɡwɐ/", l: "A1", t: "Wasser", ex: "Preciso de água." }
-            ]
-        };
-
-        const GRAMMAR = {
-            ja: [{ t: "Partikel は (wa)", r: "Markiert das Thema des Satzes." }],
-            es: [{ t: "Ser vs. Estar", r: "Ser = dauerhaft, Estar = vorübergehender Zustand." }],
-            en: [{ t: "Present Perfect", r: "Vergangenheit mit Bezug zur Gegenwart." }],
-            fr: [{ t: "Passé Composé", r: "Wird mit Avoir oder Être gebildet." }],
-            it: [{ t: "Congiuntivo", r: "Drückt Gefühle und Zweifel aus." }],
-            pt: [{ t: "Por vs Para", r: "Por = Grund, Para = Ziel/Empfänger." }]
-        };
-
-        const LANGS = [
-            { c: 'ja', n: '🇯🇵 Japanisch', tts: 'ja-JP' },
-            { c: 'es', n: '🇪🇸 Spanisch', tts: 'es-ES' },
-            { c: 'en', n: '🇬🇧 Englisch', tts: 'en-US' },
-            { c: 'fr', n: '🇫🇷 Französisch', tts: 'fr-FR' },
-            { c: 'it', n: '🇮🇹 Italienisch', tts: 'it-IT' },
-            { c: 'pt', n: '🇵🇹 Portugiesisch', tts: 'pt-PT' }
-        ];
-
-        let curLang = 'ja';
-        let idx = 0;
-        let mode = 'cards';
-        let xp = parseInt(localStorage.getItem('vp_xp') || '0');
-        let learned = parseInt(localStorage.getItem('vp_learned') || '0');
-        let dojo = JSON.parse(localStorage.getItem('vp_dojo') || '[]');
-
-        function init() {
-            renderLangs();
-            loadCard();
-            renderGrammar();
-            updateUI();
-            if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
-        }
-
-        function renderLangs() {
-            ['lang-bar', 'grammar-lang-bar'].forEach(id => {
-                const el = document.getElementById(id);
-                el.innerHTML = '';
-                LANGS.forEach(l => {
-                    const btn = document.createElement('div');
-                    btn.className = `lang-btn ${l.c === curLang ? 'active' : ''}`;
-                    btn.innerText = l.n;
-                    btn.onclick = () => { curLang = l.c; idx = 0; renderLangs(); loadCard(); renderGrammar(); };
-                    el.appendChild(btn);
-                });
-            });
-        }
-
-        function loadCard() {
-            const list = DB[curLang] || [];
-            if (!list.length) return;
-            const item = list[idx % list.length];
-            
-            document.getElementById('main-card').classList.remove('flipped');
-            document.getElementById('c-word').innerText = item.w;
-            document.getElementById('c-script').innerText = item.s || '';
-            document.getElementById('c-ipa').innerText = item.ipa || '';
-            document.getElementById('c-level').innerText = item.l;
-            document.getElementById('c-trans').innerText = item.t;
-            document.getElementById('c-ex').innerText = item.ex || '';
-
-            if (mode === 'quiz') setupQuiz(item, list);
-        }
-
-        function answer(pass) {
-            const list = DB[curLang];
-            const item = list[idx % list.length];
-            if (pass) {
-                xp += 10;
-                learned++;
-            } else {
-                if (!dojo.some(x => x.w === item.w)) dojo.push(item);
-            }
-            save();
-            idx++;
-            setTimeout(loadCard, 100);
-        }
-
-        function setMode(m) {
-            mode = m;
-            document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
-            event.target.classList.add('active');
-            document.getElementById('cards-mode').style.display = m === 'cards' ? 'flex' : 'none';
-            document.getElementById('quiz-mode').style.display = m === 'quiz' ? 'flex' : 'none';
-            loadCard();
-        }
-
-        function setupQuiz(item, list) {
-            document.getElementById('q-word').innerText = item.w;
-            document.getElementById('q-script').innerText = item.s || '';
-            document.getElementById('q-level').innerText = item.l;
-            
-            const grid = document.getElementById('q-options');
-            grid.innerHTML = '';
-            
-            let opts = [item.t];
-            let others = list.map(x => x.t).filter(x => x !== item.t);
-            while (opts.length < 4 && others.length > 0) opts.push(others.splice(Math.floor(Math.random() * others.length), 1)[0]);
-            opts.sort(() => Math.random() - 0.5);
-
-            opts.forEach(o => {
-                const b = document.createElement('div');
-                b.className = 'q-btn';
-                b.innerText = o;
-                b.onclick = () => {
-                    if (o === item.t) { xp += 15; learned++; }
-                    else { if (!dojo.some(x => x.w === item.w)) dojo.push(item); }
-                    save(); idx++; loadCard();
-                };
-                grid.appendChild(b);
-            });
-        }
-
-        function renderGrammar() {
-            const container = document.getElementById('grammar-container');
-            container.innerHTML = '';
-            (GRAMMAR[curLang] || []).forEach(g => {
-                container.innerHTML += `<div class="g-card"><div class="g-title">${g.t}</div><div class="g-rule">${g.r}</div></div>`;
-            });
-        }
-
-        function loadDojo() {
-            const stage = document.getElementById('dojo-stage');
-            if (!dojo.length) {
-                stage.innerHTML = '<div style="text-align:center; margin:auto; color:var(--text-sub);">🎉 Dein Dojo ist zurzeit leer!</div>';
-                return;
-            }
-            const item = dojo[0];
-            document.getElementById('d-word').innerText = item.w;
-            document.getElementById('d-script').innerText = item.s || '';
-            document.getElementById('d-trans').innerText = item.t;
-        }
-
-        function answerDojo(pass) {
-            if (!dojo.length) return;
-            if (pass) { dojo.shift(); xp += 20; }
-            else { dojo.push(dojo.shift()); }
-            save(); loadDojo();
-        }
-
-        function speak(e) {
-            e.stopPropagation();
-            const item = DB[curLang][idx % DB[curLang].length];
-            const u = new SpeechSynthesisUtterance(item.w);
-            u.lang = LANGS.find(l => l.c === curLang).tts;
-            window.speechSynthesis.speak(u);
-        }
-
-        function speakDojo(e) {
-            e.stopPropagation();
-            if(!dojo.length) return;
-            const u = new SpeechSynthesisUtterance(dojo[0].w);
-            u.lang = LANGS.find(l => l.c === curLang).tts;
-            window.speechSynthesis.speak(u);
-        }
-
-        function nav(target) {
-            document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
-            document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
-            document.getElementById(`view-${target}`).classList.add('active');
-            event.currentTarget.classList.add('active');
-            if (target === 'dojo') loadDojo();
-        }
-
-        function save() {
-            localStorage.setItem('vp_xp', xp);
-            localStorage.setItem('vp_learned', learned);
-            localStorage.setItem('vp_dojo', JSON.stringify(dojo));
-            updateUI();
-        }
-
-        function updateUI() {
-            document.getElementById('st-xp').innerText = xp;
-            document.getElementById('p-learned').innerText = learned;
-            document.getElementById('p-dojo').innerText = dojo.length;
-        }
-
-        init();
-    </script>
-</body>
-</html>
+<section id="profile" class="view"><div class="hero"><h2>📈 Dein Fortschritt</h2><p>VocaPulse verfolgt den Lernzustand pro Sprachrichtung. Neue Wörter werden zuerst vollständig eingeführt; Wiederholungen kommen erst wieder, wenn sie fällig sind.</p></div><div class="grid"><div class="statcard"><b id="seen">0</b><span>gelernt</span></div><div class="statcard"><b id="due">0</b><span>heute fällig</span></div><div class="statcard"><b id="dojoNum">0</b><span>im Dojo</span></div><div class="statcard"><b id="total">0</b><span>Katalogkarten</span></div></div><div class="hero"><h3 style="margin-top:0">🎯 Tagesziel</h3><div class="progress"><i id="dailyBar"></i></div><p id="dailyText" style="margin-top:8px"></p></div><div class="toolbar"><button class="secondary" id="export">Lernstand exportieren</button><label class="ghost" style="display:inline-flex;align-items:center;gap:6px">Importieren <input type="file" id="import" accept="application/json" hidden></label><button class="ghost" id="reset">Alles zurücksetzen</button></div></section>
+</main>
+<nav><button class="navbtn active" data-view="learn"><span>🎴</span>Lernen</button><button class="navbtn" data-view="vocab"><span>📚</span>Vokabeln</button><button class="navbtn" data-view="grammar"><span>📖</span>Grammatik</button><button class="navbtn" data-view="translate"><span>🌍</span>Übersetzen</button><button class="navbtn" data-view="dojo"><span>🥋</span>Dojo</button></nav>
+<div class="toast" id="toast"></div></div>
+<script>
+const LANGS={de:'🇩🇪 Deutsch',en:'🇬🇧 English',es:'🇪🇸 Español',fr:'🇫🇷 Français',it:'🇮🇹 Italiano',pt:'🇵🇹 Português',ja:'🇯🇵 日本語'};
+const LEVELS=['ALL','A1','A2','B1','B2','C1','C2'];
+const GRAMMAR={ja:[['Partikel は / が','は markiert das Thema; が hebt das Subjekt oder neue Information hervor.','私は学生です。','A1'],['Verbformen','Japanische Verben ändern sich nicht nach Person; Zeit und Höflichkeit werden über die Form ausgedrückt.','食べます。 / 食べました。','A1'],['Partikel を / に / で','を markiert das direkte Objekt, に häufig Ziel/Zeit, で den Ort einer Handlung.','学校で日本語を勉強します。','A2'],['て-Form','Die て-Form verbindet Handlungen, bildet Bitten und bestimmte grammatische Konstruktionen.','見てください。','A2']],es:[['Ser vs. estar','ser beschreibt Identität/Eigenschaft; estar häufig Zustand oder Ort.','Soy estudiante. / Estoy cansado.','A1'],['Por vs. para','por steht oft für Grund, Weg oder Dauer; para für Ziel, Zweck oder Empfänger.','Lo hice por ti. / Es para ti.','B1'],['Vergangenheit','Indefinido und imperfecto erfüllen unterschiedliche Erzählfunktionen.','Ayer fui al centro. / Cuando era niño…','B1']],en:[['Present perfect','have/has + past participle verbindet eine vergangene Handlung mit der Gegenwart.','I have finished.','B1'],['Articles','a/an führt ein zählbares Nomen ein; the bezeichnet etwas Bestimmtes.','a book / the book','A1'],['Conditionals','First, second und third conditional unterscheiden reale, hypothetische und vergangene Bedingungen.','If I had time, I would travel.','B2']],fr:[['Passé composé','avoir oder être + participe passé für viele abgeschlossene Handlungen.','J’ai parlé. / Je suis allé.','A2'],['Artikel','Französisch nutzt bestimmte und unbestimmte Artikel und passt sie an Genus und Zahl an.','le livre / une maison','A1'],['Imparfait','Das imparfait beschreibt Zustände, Gewohnheiten und Hintergründe in der Vergangenheit.','Quand j’étais petit…','B1']],it:[['Essere vs stare','essere ist häufig für Identität/Eigenschaft, stare für Zustand und feste Wendungen.','Sono italiano. / Sto bene.','A1'],['Artikel','Artikel passen sich Genus und Zahl des Nomens an.','il libro / la casa','A1'],['Passato prossimo','Hilfsverb avere/essere + Partizip für viele abgeschlossene Handlungen.','Ho mangiato. / Sono andato.','A2']],pt:[['Ser vs estar','ser für Identität/Charakteristik; estar für Zustand/Ort.','Sou estudante. / Estou cansado.','A1'],['Por vs para','por bezeichnet u.a. Grund/Weg; para Ziel/Zweck/Empfänger.','Obrigado por tudo. / Isto é para ti.','B1'],['Pretérito perfeito vs imperfeito','Perfektive und imperfektive Vergangenheit haben unterschiedliche Funktionen.','Fui lá ontem. / Quando era criança…','B1']],de:[['Kasus','Deutsch unterscheidet Nominativ, Akkusativ, Dativ und Genitiv.','Der Mann sieht den Hund.','A1'],['Satzklammer','Bei vielen Verben stehen Teile des Prädikats getrennt.','Ich habe gestern Deutsch gelernt.','A2'],['Konjunktiv II','Für Wünsche, Höflichkeit und Irreales wird häufig der Konjunktiv II verwendet.','Ich würde gern reisen.','B1']]};
+let WORDS=[];
+let state={source:'en',target:'de',level:'ALL',done:{},dojo:{},xp:0,streak:0,lastDay:null,daily:0,dailyDate:null,favs:{},settings:{dailyGoal:20,dojoMode:'recall'}};
+let current=null,mode='recall',toastTimer=null,onlineController=null;
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+async function boot(){try{WORDS=await fetch('./data/words.json').then(r=>r.json())}catch(e){toast('Katalog konnte nicht geladen werden.');WORDS=[]}const saved=localStorage.getItem('vp-final-state');if(saved){try{state={...state,...JSON.parse(saved),settings:{...state.settings,...(JSON.parse(saved).settings||{})}}}catch(e){}} if(state.dailyDate!==today()){state.dailyDate=today();state.daily=0}renderAll();pickCard();}
+function today(){return new Date().toISOString().slice(0,10)}
+function save(){localStorage.setItem('vp-final-state',JSON.stringify(state));renderStats()}
+function toast(t){clearTimeout(toastTimer);$('#toast').textContent=t;$('#toast').classList.add('show');toastTimer=setTimeout(()=>$('#toast').classList.remove('show'),1900)}
+function cards(){return WORDS.flatMap(w=>Object.keys(LANGS).filter(s=>s!==w._dummy).map(src=>({id:`${w.key}:${src}:${state.target}`,key:w.key,src,level:w.level,cat:w.cat,type:w.type,reading:w.r,values:w.values,w}))).filter(c=>c.src===state.source&&(state.level==='ALL'||c.level===state.level))}
+function cardPool(){return cards()}
+function getDue(){const n=Date.now();return cardPool().filter(c=>{const d=state.done[c.id];return d&&d.next<=n})}
+function getNew(){return cardPool().filter(c=>!state.done[c.id])}
+function dojoDue(){const n=Date.now();return Object.keys(state.dojo).map(id=>cardPool().find(c=>c.id===id)).filter(c=>c&&state.dojo[c.id].next<=n)}
+function choose(){const dd=dojoDue();if(mode!=='recall'&&dd.length)return dd[Math.floor(Math.random()*dd.length)];const fresh=getNew();if(fresh.length)return fresh[Math.floor(Math.random()*fresh.length)];const due=getDue();if(due.length)return due[Math.floor(Math.random()*due.length)];const all=cardPool();return all.length?all[Math.floor(Math.random()*all.length)]:null}
+function renderLangs(){const html=Object.entries(LANGS).map(([k,v])=>`<button class="tab ${state.source===k?'active':''}" data-src="${k}">${v}</button>`).join('');$('#srcTabs').innerHTML=html;$('#grammarTabs').innerHTML=html;$$('[data-src]').forEach(b=>b.onclick=()=>{state.source=b.dataset.src;if(state.source===state.target)state.target=state.source==='de'?'en':'de';fillTargets();renderGrammar();renderVocab();renderStats();pickCard()})}
+function fillTargets(){const opts=Object.entries(LANGS).filter(([k])=>k!==state.source).map(([k,v])=>`<option value="${k}">→ ${v}</option>`).join('');$('#target').innerHTML=opts;$('#target').value=state.target;const fs=Object.entries(LANGS).map(([k,v])=>`<option value="${k}">${v}</option>`).join('');$('#from').innerHTML=fs;$('#to').innerHTML=fs;$('#from').value=state.source;$('#to').value=state.target}
+function renderLevels(){const h=LEVELS.map(l=>`<button class="${state.level===l?'active':''}">${l==='ALL'?'Alle':l}</button>`).join('');$('#level').innerHTML=h;$$('#level button').forEach(b=>b.onclick=()=>{state.level=b.textContent==='Alle'?'ALL':b.textContent;renderLevels();pickCard()});$('#vocabLevel').innerHTML=LEVELS.map(l=>`<option value="${l}">${l==='ALL'?'Alle Levels':l}</option>`).join('');$('#grammarLevel').innerHTML=LEVELS.map(l=>`<option value="${l}">${l==='ALL'?'Alle Levels':l}</option>`).join('')}
+function renderStats(){const all=cardPool();const seen=all.filter(c=>state.done[c.id]?.stage>=2).length;const due=getDue().length;$('#xp').textContent=state.xp;$('#streak').textContent=state.streak;$('#seen').textContent=seen;$('#due').textContent=due;$('#dojoNum').textContent=Object.keys(state.dojo).length;$('#total').textContent=all.length;const pct=Math.min(100,state.daily/state.settings.dailyGoal*100);$('#dailyBar').style.width=pct+'%';$('#dailyText').textContent=`${state.daily} / ${state.settings.dailyGoal} Karten heute · ${Math.round(pct)}%`}
+function renderProgress(){const all=cardPool();const seen=all.filter(c=>state.done[c.id]?.stage>=2).length;$('#bar').style.width=(all.length?Math.min(100,seen/all.length*100):0)+'%'}
+function show(c){current=c;$('#card').classList.remove('flip');if(!c){$('#frontWord').textContent='Keine Karten';return}const front=c.values[c.src]||c.w.values.en;const back=c.values[state.target]||c.values.de;$('#levelTag').textContent=c.level;$('#frontWord').textContent=front;$('#reading').textContent=c.src==='ja'?c.reading:'';$('#frontMeta').textContent=`${c.type} · ${c.cat}`;$('#backWord').textContent=back;$('#senses').innerHTML=Object.entries(c.values).filter(([k])=>k!==c.src&&k!==state.target).map(([k,v])=>`<span class="sense">${LANGS[k].replace(/^\S+\s/,'')}: ${v}</span>`).join('');$('#example').textContent=`${front} → ${back}`;renderProgress()}
+function pickCard(){show(choose())}
+function speak(text,lang){if(!('speechSynthesis'in window))return toast('Sprachausgabe wird nicht unterstützt.');speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang={de:'de-DE',en:'en-US',es:'es-ES',fr:'fr-FR',it:'it-IT',pt:'pt-PT',ja:'ja-JP'}[lang]||'en-US';speechSynthesis.speak(u)}
+function interval(stage,kind){if(kind==='again')return 10*60*1000;if(kind==='hard')return stage<2?12*3600*1000:2*86400000;const days=[1,3,7,16,35,75,150][Math.min(stage,6)];return days*86400000}
+function answer(kind){if(!current)return;if(!$('#card').classList.contains('flip')){toast('Erst aufdecken, dann bewerten.');$('#card').classList.add('flip');return}const old=state.done[current.id]||{stage:0};let stage=old.stage||0;if(kind==='again'){stage=Math.max(0,stage-1);state.dojo[current.id]={fails:(state.dojo[current.id]?.fails||0)+1,next:Date.now()+interval(stage,'again')}}else if(kind==='hard'){stage=Math.max(1,stage);state.dojo[current.id]={fails:(state.dojo[current.id]?.fails||0)+1,next:Date.now()+interval(stage,'hard')}}else{stage=Math.min(7,stage+1);delete state.dojo[current.id];state.xp+=10}state.done[current.id]={stage,next:Date.now()+interval(stage,kind),last:Date.now()};state.daily++;if(state.lastDay!==today()){state.streak++;state.lastDay=today()}save();toast(kind==='again'?'Im Dojo gespeichert':kind==='hard'?'Bald wiederholen':'Gewusst · +10 XP');pickCard()}
+function nav(view){$$('.view').forEach(v=>v.classList.toggle('active',v.id===view));$$('.navbtn').forEach(b=>b.classList.toggle('active',b.dataset.view===view));if(view==='vocab')renderVocab();if(view==='grammar')renderGrammar();if(view==='dojo')renderDojo();if(view==='profile')renderStats()}
+function renderVocab(){const q=($('#vocabSearch').value||'').toLowerCase();const lev=$('#vocabLevel').value||'ALL';const arr=WORDS.filter(w=>(lev==='ALL'||w.level===lev)&&(!q||[w.key,w.type,w.cat,...Object.values(w.values)].join(' ').toLowerCase().includes(q)));$('#vocabCount').textContent=`${arr.length} Einträge · ${Object.keys(LANGS).length} Sprachen`;$('#vocabList').innerHTML=arr.slice(0,600).map(w=>`<article class="result"><div class="dicthead"><div><div class="dictword">${w.values[state.source]||w.values.en}</div><small>${w.type} · ${w.level} · ${w.cat}${w.r?' · '+w.r:''}</small></div></div>${Object.entries(w.values).map(([k,v])=>`<div class="senseRow"><span>${LANGS[k]}</span><b>${v}</b></div>`).join('')}<div class="linkrow"><button class="ghost" data-learn="${w.key}">Lernen</button><button class="ghost" data-fav="${w.key}">${state.favs[w.key]?'★ Favorit':'☆ Favorit'}</button><a class="ghost" target="_blank" rel="noopener" href="https://dict.leo.org/${state.source}-${state.target}/${encodeURIComponent(w.values[state.source]||w.values.en)}">LEO öffnen</a></div></article>`).join('');$$('[data-learn]').forEach(b=>b.onclick=()=>{const w=WORDS.find(x=>x.key===b.dataset.learn);if(w){current={...w,id:`${w.key}:${state.source}:${state.target}`,src:state.source,values:w.values,type:w.type,cat:w.cat,level:w.level,reading:w.r,w};nav('learn');show(current)}});$$('[data-fav]').forEach(b=>b.onclick=()=>{state.favs[b.dataset.fav]=!state.favs[b.dataset.fav];save();renderVocab()})}
+function renderGrammar(){const q=($('#grammarSearch').value||'').toLowerCase();const lev=$('#grammarLevel').value||'ALL';const items=(GRAMMAR[state.source]||[]).filter(x=>(lev==='ALL'||x[3]===lev)&&(!q||x.join(' ').toLowerCase().includes(q)));$('#grammarList').innerHTML=items.map(x=>`<article class="grammar"><div class="meta"><span class="tag">${x[3]}</span><b>${x[0]}</b></div><p>${x[1]}</p><div class="example">${x[2]}</div></article>`).join('')||'<div class="empty">Keine passenden Grammatikthemen.</div>'}
+function renderDojo(){const arr=Object.keys(state.dojo).map(id=>cardPool().find(c=>c.id===id)).filter(Boolean).sort((a,b)=>(state.dojo[a.id].next||0)-(state.dojo[b.id].next||0));$('#dojoList').innerHTML=arr.length?'<div class="list">'+arr.map(c=>`<div class="listcard"><div class="main"><b>${c.values[c.src]}</b><small>${c.values[state.target]||c.values.de} · ${state.dojo[c.id].fails||1} Fehler</small></div><span class="badge">${new Date(state.dojo[c.id].next).toLocaleDateString()}</span></div>`).join('')+'</div>':'<div class="empty"><div><strong>🥋 Dojo ist leer</strong><br>Fehler und Unsicherheiten erscheinen hier automatisch.</div></div>'}
+function translationLookup(text,from,to){const norm=text.trim().toLowerCase();const exact=WORDS.find(w=>Object.values(w.values).some(v=>v.toLowerCase()===norm));if(exact)return {text:exact.values[to]||exact.values.de,source:'Katalog',word:exact};return null}
+async function translate(){const text=$('#translateInput').value.trim(),from=$('#from').value,to=$('#to').value;if(!text)return toast('Bitte Text eingeben.');if(from===to)return $('#translationResult').innerHTML='<div class="result"><strong>Gleiche Sprache</strong><p>Quelle und Ziel sind identisch.</p></div>';const local=translationLookup(text,from,to);if(local){$('#translationResult').innerHTML=`<div class="result"><strong>${local.text}</strong><p>Lokaler VocaPulse-Katalog · ${LANGS[from]} → ${LANGS[to]}</p><div class="linkrow"><button class="secondary" id="learnTranslated">Als Karte lernen</button></div></div>`;$('#learnTranslated').onclick=()=>{state.source=from;state.target=to;renderLangs();show({id:`${local.word.key}:${from}:${to}`,src:from,values:local.word.values,type:local.word.type,cat:local.word.cat,level:local.word.level,reading:local.word.r,w:local.word});nav('learn')};return}$('#translationResult').innerHTML='<div class="result"><strong>Übersetze online…</strong><p>Bitte kurz warten.</p></div>';try{const url=`https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=${encodeURIComponent(from+'|'+to)}`;const r=await fetch(url);const j=await r.json();const out=j?.responseData?.translatedText;if(!out)throw Error();$('#translationResult').innerHTML=`<div class="result"><strong>${escapeHtml(out)}</strong><p>Online-Fallback · MyMemory</p></div>`}catch(e){$('#translationResult').innerHTML='<div class="result"><strong>Online-Übersetzung nicht erreichbar</strong><p>Prüfe deine Internetverbindung oder nutze einen Begriff aus dem lokalen Katalog.</p></div>'}}
+function escapeHtml(s){return s.replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
+function dojoQuestion(){const c=dojoDue()[0]||Object.keys(state.dojo).map(id=>cardPool().find(x=>x.id===id)).filter(Boolean)[0];if(!c)return toast('Dein Dojo ist leer.');current=c;nav('learn');show(c);$('#card').classList.remove('flip');if(mode==='listen'){speak(c.values[c.src],c.src);toast('Höre das Wort und denke an die Bedeutung.')}else if(mode==='type'){setTimeout(()=>{const a=prompt(`Tippe die Übersetzung auf ${LANGS[state.target]}:`);if(a!==null){const expected=(c.values[state.target]||'').toLowerCase();const ok=a.trim().toLowerCase()===expected;if(ok)answer('known');else{answer('again');toast(`Richtig wäre: ${c.values[state.target]}`)}}},120)}else if(mode==='choice'){const answers=[c.values[state.target],...WORDS.filter(w=>w.key!==c.key).sort(()=>Math.random()-.5).slice(0,3).map(w=>w.values[state.target])].sort(()=>Math.random()-.5);const box=document.createElement('div');box.className='choices';answers.forEach(a=>{const b=document.createElement('button');b.className='choice';b.textContent=a;b.onclick=()=>{const ok=a===c.values[state.target];b.classList.add(ok?'correct':'wrong');if(ok)answer('known');else answer('again')};box.appendChild(b)});$('#example').replaceChildren(box);$('#card').classList.add('flip')}else{$('#card').classList.add('flip')}}
+function exportState(){const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='vocapulse-lernstand.json';a.click();URL.revokeObjectURL(a.href)}
+function importState(file){const r=new FileReader();r.onload=()=>{try{state={...state,...JSON.parse(r.result)};save();toast('Lernstand importiert.')}catch(e){toast('Import fehlgeschlagen.')}};r.readAsText(file)}
+$('#card').onclick=()=>$('#card').classList.toggle('flip');$('#speakFront').onclick=e=>{e.stopPropagation();if(current)speak(current.values[current.src],current.src)};$('#speakBack').onclick=e=>{e.stopPropagation();if(current)speak(current.values[state.target],state.target)};$('#again').onclick=()=>answer('again');$('#hard').onclick=()=>answer('hard');$('#good').onclick=()=>answer('good');$('#shuffle').onclick=pickCard;$('#target').onchange=()=>{state.target=$('#target').value;save();renderVocab();pickCard()};$('#vocabSearch').oninput=renderVocab;$('#vocabLevel').onchange=renderVocab;$('#grammarSearch').oninput=renderGrammar;$('#grammarLevel').onchange=renderGrammar;$('#swap').onclick=()=>{const a=$('#from').value;$('#from').value=$('#to').value;$('#to').value=a};$('#translateBtn').onclick=translate;$('#speakTranslation').onclick=()=>{const t=$('#translationResult strong');if(t)speak(t.textContent,$('#to').value)};$('#vocabRefresh').onclick=renderVocab;$('#dojoStart').onclick=dojoQuestion;$$('.mode').forEach(b=>b.onclick=()=>{$$('.mode').forEach(x=>x.classList.remove('active'));b.classList.add('active');mode=b.dataset.mode;state.settings.dojoMode=mode;save()});$('#export').onclick=exportState;$('#import').onchange=e=>{if(e.target.files[0])importState(e.target.files[0])};$('#reset').onclick=()=>{if(confirm('Lernstand wirklich löschen?')){localStorage.removeItem('vp-final-state');location.reload()}};$$('.navbtn').forEach(b=>b.onclick=()=>nav(b.dataset.view));document.addEventListener('keydown',e=>{if(e.code==='Space'&&$('#learn').classList.contains('active')){e.preventDefault();$('#card').classList.toggle('flip')}if(['1','2','3'].includes(e.key)&&$('#learn').classList.contains('active'))answer(e.key==='1'?'again':e.key==='2'?'hard':'good')});
+function renderAll(){renderLangs();fillTargets();renderLevels();renderGrammar();renderVocab();renderStats()}
+if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').catch(()=>{});boot();
+</script></body></html>
