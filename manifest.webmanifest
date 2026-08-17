@@ -1,12 +1,10 @@
 {
-  "name":"VocaPulse",
-  "short_name":"VocaPulse",
-  "description":"Mehrsprachige Sprachlern-PWA mit Vokabeln, Grammatik, Übersetzung und Dojo",
-  "start_url":"./",
-  "scope":"./",
-  "display":"standalone",
-  "orientation":"any",
-  "background_color":"#171923",
-  "theme_color":"#171923",
-  "lang":"de"
+  "name": "VocaPulse",
+  "short_name": "VocaPulse",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#171820",
+  "theme_color": "#242436",
+  "description": "Mehrsprachige Lern-PWA mit 50.000 Wörtern pro Sprache, Grammatik, Dojo und Übersetzer."
 }
