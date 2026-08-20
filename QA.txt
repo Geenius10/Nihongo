@@ -1,8 +1,0 @@
-index_has_all_views: PASS
-all_button_ids_bound: PASS
-responsive_dvh: PASS
-mobile_media: PASS
-landscape_media: PASS
-seven_languages: PASS
-50k_loader: PASS
-indexeddb: PASS
