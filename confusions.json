@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "19.0.0",
+  "items": [
+    [
+      "ぬ",
+      "め",
+      "Hiragana"
+    ],
+    [
+      "れ",
+      "ね",
+      "Hiragana"
+    ],
+    [
+      "さ",
+      "き",
+      "Hiragana"
+    ],
+    [
+      "シ",
+      "ツ",
+      "Katakana"
+    ],
+    [
+      "ソ",
+      "ン",
+      "Katakana"
+    ],
+    [
+      "ク",
+      "ケ",
+      "Katakana"
+    ],
+    [
+      "フ",
+      "ワ",
+      "Katakana"
+    ],
+    [
+      "ロ",
+      "口",
+      "Katakana/Kanji"
+    ]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "N5": {
+    "vocabulary": 166,
+    "grammar_patterns": 17,
+    "kanji_entries": 62,
+    "grammar_lessons": 20,
+    "card_example_sentences": 183,
+    "lesson_example_sentences": 40
+  },
+  "N4": {
+    "vocabulary": 183,
+    "grammar_patterns": 52,
+    "kanji_entries": 236,
+    "grammar_lessons": 35,
+    "card_example_sentences": 235,
+    "lesson_example_sentences": 70
+  },
+  "Kana": {
+    "hiragana": 104,
+    "katakana": 104
+  },
+  "TOTAL": {
+    "vocabulary": 363,
+    "grammar_patterns": 78,
+    "kanji_entries": 318,
+    "grammar_lessons": 55,
+    "card_example_sentences": 441,
+    "lesson_example_sentences": 110
+  }
+}

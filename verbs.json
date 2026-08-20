@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "19.0.0",
+  "items": [
+    {
+      "dict": "食べる",
+      "type": "Ichidan",
+      "meaning": "essen",
+      "masu": "食べます",
+      "negative": "食べない",
+      "past": "食べた",
+      "te": "食べて",
+      "potential": "食べられる"
+    },
+    {
+      "dict": "見る",
+      "type": "Ichidan",
+      "meaning": "sehen",
+      "masu": "見ます",
+      "negative": "見ない",
+      "past": "見た",
+      "te": "見て",
+      "potential": "見られる"
+    },
+    {
+      "dict": "行く",
+      "type": "Godan",
+      "meaning": "gehen",
+      "masu": "行きます",
+      "negative": "行かない",
+      "past": "行った",
+      "te": "行って",
+      "potential": "行ける"
+    },
+    {
+      "dict": "書く",
+      "type": "Godan",
+      "meaning": "schreiben",
+      "masu": "書きます",
+      "negative": "書かない",
+      "past": "書いた",
+      "te": "書いて",
+      "potential": "書ける"
+    },
+    {
+      "dict": "読む",
+      "type": "Godan",
+      "meaning": "lesen",
+      "masu": "読みます",
+      "negative": "読まない",
+      "past": "読んだ",
+      "te": "読んで",
+      "potential": "読める"
+    },
+    {
+      "dict": "話す",
+      "type": "Godan",
+      "meaning": "sprechen",
+      "masu": "話します",
+      "negative": "話さない",
+      "past": "話した",
+      "te": "話して",
+      "potential": "話せる"
+    },
+    {
+      "dict": "する",
+      "type": "unregelmäßig",
+      "meaning": "machen",
+      "masu": "します",
+      "negative": "しない",
+      "past": "した",
+      "te": "して",
+      "potential": "できる"
+    },
+    {
+      "dict": "来る",
+      "type": "unregelmäßig",
+      "meaning": "kommen",
+      "masu": "来ます",
+      "negative": "来ない",
+      "past": "来た",
+      "te": "来て",
+      "potential": "来られる"
+    }
+  ]
+}

@@ -1,0 +1,2910 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "19.0.0",
+  "items": [
+    [
+      "N5",
+      "私",
+      "わたし · watashi",
+      "ich",
+      "私は学生です。",
+      "Ich bin Student/in."
+    ],
+    [
+      "N5",
+      "あなた",
+      "anata",
+      "du / Sie",
+      "あなたは先生ですか。",
+      "Sind Sie Lehrer/in?"
+    ],
+    [
+      "N5",
+      "人",
+      "ひと · hito",
+      "Mensch / Person",
+      "あの人は先生です。",
+      "Diese Person ist Lehrer/in."
+    ],
+    [
+      "N5",
+      "日本",
+      "にほん · Nihon",
+      "Japan",
+      "日本へ行きます。",
+      "Ich fahre nach Japan."
+    ],
+    [
+      "N5",
+      "日本語",
+      "にほんご · nihongo",
+      "Japanisch",
+      "日本語を勉強します。",
+      "Ich lerne Japanisch."
+    ],
+    [
+      "N5",
+      "先生",
+      "せんせい · sensei",
+      "Lehrer/in",
+      "田中先生です。",
+      "Das ist Lehrer/in Tanaka."
+    ],
+    [
+      "N5",
+      "学生",
+      "がくせい · gakusei",
+      "Student/in",
+      "学生です。",
+      "Ich bin Student/in."
+    ],
+    [
+      "N5",
+      "友達",
+      "ともだち · tomodachi",
+      "Freund/in",
+      "友達と話します。",
+      "Ich spreche mit einem Freund."
+    ],
+    [
+      "N5",
+      "家族",
+      "かぞく · kazoku",
+      "Familie",
+      "家族は四人です。",
+      "Meine Familie besteht aus vier Personen."
+    ],
+    [
+      "N5",
+      "水",
+      "みず · mizu",
+      "Wasser",
+      "水をください。",
+      "Wasser, bitte."
+    ],
+    [
+      "N5",
+      "お茶",
+      "おちゃ · ocha",
+      "Tee",
+      "お茶を飲みます。",
+      "Ich trinke Tee."
+    ],
+    [
+      "N5",
+      "ご飯",
+      "ごはん · gohan",
+      "Reis / Mahlzeit",
+      "ご飯を食べます。",
+      "Ich esse."
+    ],
+    [
+      "N5",
+      "食べる",
+      "たべる · taberu",
+      "essen",
+      "寿司を食べます。",
+      "Ich esse Sushi."
+    ],
+    [
+      "N5",
+      "飲む",
+      "のむ · nomu",
+      "trinken",
+      "水を飲みます。",
+      "Ich trinke Wasser."
+    ],
+    [
+      "N5",
+      "行く",
+      "いく · iku",
+      "gehen / fahren",
+      "学校へ行きます。",
+      "Ich gehe zur Schule."
+    ],
+    [
+      "N5",
+      "来る",
+      "くる · kuru",
+      "kommen",
+      "明日来ます。",
+      "Ich komme morgen."
+    ],
+    [
+      "N5",
+      "見る",
+      "みる · miru",
+      "sehen",
+      "映画を見ます。",
+      "Ich sehe einen Film."
+    ],
+    [
+      "N5",
+      "聞く",
+      "きく · kiku",
+      "hören / fragen",
+      "音楽を聞きます。",
+      "Ich höre Musik."
+    ],
+    [
+      "N5",
+      "話す",
+      "はなす · hanasu",
+      "sprechen",
+      "日本語を話します。",
+      "Ich spreche Japanisch."
+    ],
+    [
+      "N5",
+      "読む",
+      "よむ · yomu",
+      "lesen",
+      "本を読みます。",
+      "Ich lese ein Buch."
+    ],
+    [
+      "N5",
+      "書く",
+      "かく · kaku",
+      "schreiben",
+      "名前を書きます。",
+      "Ich schreibe den Namen."
+    ],
+    [
+      "N5",
+      "買う",
+      "かう · kau",
+      "kaufen",
+      "パンを買います。",
+      "Ich kaufe Brot."
+    ],
+    [
+      "N5",
+      "大きい",
+      "おおきい · ōkii",
+      "groß",
+      "大きい家です。",
+      "Es ist ein großes Haus."
+    ],
+    [
+      "N5",
+      "小さい",
+      "ちいさい · chiisai",
+      "klein",
+      "小さい犬です。",
+      "Es ist ein kleiner Hund."
+    ],
+    [
+      "N5",
+      "新しい",
+      "あたらしい · atarashii",
+      "neu",
+      "新しい本です。",
+      "Es ist ein neues Buch."
+    ],
+    [
+      "N5",
+      "古い",
+      "ふるい · furui",
+      "alt",
+      "古い車です。",
+      "Es ist ein altes Auto."
+    ],
+    [
+      "N5",
+      "良い",
+      "いい · ii",
+      "gut",
+      "いい天気です。",
+      "Das Wetter ist gut."
+    ],
+    [
+      "N5",
+      "悪い",
+      "わるい · warui",
+      "schlecht",
+      "気分が悪いです。",
+      "Mir ist nicht gut."
+    ],
+    [
+      "N5",
+      "今日",
+      "きょう · kyō",
+      "heute",
+      "今日は暑いです。",
+      "Heute ist es heiß."
+    ],
+    [
+      "N5",
+      "明日",
+      "あした · ashita",
+      "morgen",
+      "また明日。",
+      "Bis morgen."
+    ],
+    [
+      "N5",
+      "昨日",
+      "きのう · kinō",
+      "gestern",
+      "昨日勉強しました。",
+      "Gestern habe ich gelernt."
+    ],
+    [
+      "N5",
+      "今",
+      "いま · ima",
+      "jetzt",
+      "今何時ですか。",
+      "Wie spät ist es jetzt?"
+    ],
+    [
+      "N5",
+      "朝",
+      "あさ · asa",
+      "Morgen",
+      "朝ご飯を食べます。",
+      "Ich frühstücke."
+    ],
+    [
+      "N5",
+      "夜",
+      "よる · yoru",
+      "Abend / Nacht",
+      "夜に勉強します。",
+      "Ich lerne abends."
+    ],
+    [
+      "N5",
+      "駅",
+      "えき · eki",
+      "Bahnhof",
+      "駅はどこですか。",
+      "Wo ist der Bahnhof?"
+    ],
+    [
+      "N5",
+      "学校",
+      "がっこう · gakkō",
+      "Schule",
+      "学校へ行きます。",
+      "Ich gehe zur Schule."
+    ],
+    [
+      "N5",
+      "病院",
+      "びょういん · byōin",
+      "Krankenhaus",
+      "病院は近いです。",
+      "Das Krankenhaus ist nah."
+    ],
+    [
+      "N5",
+      "店",
+      "みせ · mise",
+      "Geschäft",
+      "店で買います。",
+      "Ich kaufe im Geschäft."
+    ],
+    [
+      "N5",
+      "右",
+      "みぎ · migi",
+      "rechts",
+      "右へ曲がります。",
+      "Biegen Sie rechts ab."
+    ],
+    [
+      "N5",
+      "左",
+      "ひだり · hidari",
+      "links",
+      "左にあります。",
+      "Es ist links."
+    ],
+    [
+      "N5",
+      "上",
+      "うえ · ue",
+      "oben / auf",
+      "机の上です。",
+      "Es ist auf dem Tisch."
+    ],
+    [
+      "N5",
+      "下",
+      "した · shita",
+      "unten / unter",
+      "椅子の下です。",
+      "Es ist unter dem Stuhl."
+    ],
+    [
+      "N5",
+      "中",
+      "なか · naka",
+      "innen / in",
+      "箱の中です。",
+      "Es ist in der Box."
+    ],
+    [
+      "N5",
+      "外",
+      "そと · soto",
+      "außen",
+      "外は寒いです。",
+      "Draußen ist es kalt."
+    ],
+    [
+      "N5",
+      "いくら",
+      "ikura",
+      "wie viel?",
+      "これはいくらですか。",
+      "Wie viel kostet das?"
+    ],
+    [
+      "N5",
+      "どこ",
+      "doko",
+      "wo?",
+      "駅はどこですか。",
+      "Wo ist der Bahnhof?"
+    ],
+    [
+      "N5",
+      "何",
+      "なに / なん · nani / nan",
+      "was?",
+      "これは何ですか。",
+      "Was ist das?"
+    ],
+    [
+      "N5",
+      "誰",
+      "だれ · dare",
+      "wer?",
+      "あの人は誰ですか。",
+      "Wer ist diese Person?"
+    ],
+    [
+      "N5",
+      "ありがとう",
+      "arigatō",
+      "Danke",
+      "ありがとうございます。",
+      "Vielen Dank."
+    ],
+    [
+      "N5",
+      "すみません",
+      "sumimasen",
+      "Entschuldigung",
+      "すみません、駅はどこですか。",
+      "Entschuldigung, wo ist der Bahnhof?"
+    ],
+    [
+      "N5",
+      "お願いします",
+      "おねがいします · onegaishimasu",
+      "bitte",
+      "水をお願いします。",
+      "Wasser bitte."
+    ],
+    [
+      "N5",
+      "大丈夫",
+      "だいじょうぶ · daijōbu",
+      "okay / in Ordnung",
+      "大丈夫です。",
+      "Es ist okay."
+    ],
+    [
+      "N4",
+      "必要",
+      "ひつよう · hitsuyō",
+      "notwendig",
+      "これは必要です。",
+      "Das ist notwendig."
+    ],
+    [
+      "N4",
+      "予定",
+      "よてい · yotei",
+      "Plan / Termin",
+      "明日の予定は何ですか。",
+      "Was ist morgen geplant?"
+    ],
+    [
+      "N4",
+      "経験",
+      "けいけん · keiken",
+      "Erfahrung",
+      "日本で働いた経験があります。",
+      "Ich habe Erfahrung mit Arbeit in Japan."
+    ],
+    [
+      "N4",
+      "説明",
+      "せつめい · setsumei",
+      "Erklärung",
+      "先生が説明します。",
+      "Der Lehrer erklärt es."
+    ],
+    [
+      "N4",
+      "準備",
+      "じゅんび · junbi",
+      "Vorbereitung",
+      "旅行の準備をします。",
+      "Ich bereite die Reise vor."
+    ],
+    [
+      "N4",
+      "続ける",
+      "つづける · tsuzukeru",
+      "fortsetzen",
+      "勉強を続けます。",
+      "Ich lerne weiter."
+    ],
+    [
+      "N4",
+      "比べる",
+      "くらべる · kuraberu",
+      "vergleichen",
+      "二つを比べます。",
+      "Ich vergleiche zwei Dinge."
+    ],
+    [
+      "N4",
+      "選ぶ",
+      "えらぶ · erabu",
+      "auswählen",
+      "好きなものを選びます。",
+      "Ich wähle etwas aus, das ich mag."
+    ],
+    [
+      "N3",
+      "状況",
+      "じょうきょう · jōkyō",
+      "Situation",
+      "状況を確認します。",
+      "Ich überprüfe die Situation."
+    ],
+    [
+      "N3",
+      "理由",
+      "りゆう · riyū",
+      "Grund",
+      "理由を教えてください。",
+      "Bitte sagen Sie mir den Grund."
+    ],
+    [
+      "N3",
+      "影響",
+      "えいきょう · eikyō",
+      "Einfluss",
+      "天気が予定に影響します。",
+      "Das Wetter beeinflusst den Plan."
+    ],
+    [
+      "N3",
+      "方法",
+      "ほうほう · hōhō",
+      "Methode",
+      "いい方法を考えます。",
+      "Ich überlege eine gute Methode."
+    ],
+    [
+      "N3",
+      "関係",
+      "かんけい · kankei",
+      "Beziehung / Zusammenhang",
+      "仕事と生活の関係です。",
+      "Es geht um den Zusammenhang von Arbeit und Leben."
+    ],
+    [
+      "N3",
+      "可能",
+      "かのう · kanō",
+      "möglich",
+      "変更は可能です。",
+      "Eine Änderung ist möglich."
+    ],
+    [
+      "N2",
+      "判断",
+      "はんだん · handan",
+      "Urteil / Entscheidung",
+      "状況を見て判断します。",
+      "Ich entscheide nach Lage der Dinge."
+    ],
+    [
+      "N2",
+      "維持",
+      "いじ · iji",
+      "Erhalt / Aufrechterhaltung",
+      "健康を維持します。",
+      "Ich erhalte meine Gesundheit."
+    ],
+    [
+      "N2",
+      "傾向",
+      "けいこう · keikō",
+      "Tendenz",
+      "最近その傾向があります。",
+      "In letzter Zeit gibt es diese Tendenz."
+    ],
+    [
+      "N2",
+      "対応",
+      "たいおう · taiō",
+      "Umgang / Reaktion",
+      "問題に対応します。",
+      "Ich gehe mit dem Problem um."
+    ],
+    [
+      "N1",
+      "概念",
+      "がいねん · gainen",
+      "Konzept",
+      "新しい概念を理解します。",
+      "Ich verstehe ein neues Konzept."
+    ],
+    [
+      "N1",
+      "妥当",
+      "だとう · datō",
+      "angemessen / plausibel",
+      "その判断は妥当です。",
+      "Diese Entscheidung ist angemessen."
+    ],
+    [
+      "N1",
+      "遂行",
+      "すいこう · suikō",
+      "Durchführung",
+      "計画を遂行します。",
+      "Ich führe den Plan durch."
+    ],
+    [
+      "N1",
+      "顕著",
+      "けんちょ · kencho",
+      "deutlich / markant",
+      "顕著な変化があります。",
+      "Es gibt eine deutliche Veränderung."
+    ],
+    [
+      "N5",
+      "会う",
+      "あう · au",
+      "treffen",
+      "友達に会います。",
+      "Ich treffe einen Freund."
+    ],
+    [
+      "N5",
+      "開ける",
+      "あける · akeru",
+      "öffnen",
+      "窓を開けます。",
+      "Ich öffne das Fenster."
+    ],
+    [
+      "N5",
+      "閉める",
+      "しめる · shimeru",
+      "schließen",
+      "ドアを閉めます。",
+      "Ich schließe die Tür."
+    ],
+    [
+      "N5",
+      "起きる",
+      "おきる · okiru",
+      "aufstehen",
+      "毎朝七時に起きます。",
+      "Ich stehe jeden Morgen um sieben auf."
+    ],
+    [
+      "N5",
+      "寝る",
+      "ねる · neru",
+      "schlafen gehen",
+      "十一時に寝ます。",
+      "Ich gehe um elf Uhr schlafen."
+    ],
+    [
+      "N5",
+      "働く",
+      "はたらく · hataraku",
+      "arbeiten",
+      "会社で働きます。",
+      "Ich arbeite in einer Firma."
+    ],
+    [
+      "N5",
+      "休む",
+      "やすむ · yasumu",
+      "sich ausruhen / frei nehmen",
+      "日曜日は休みます。",
+      "Sonntags ruhe ich mich aus."
+    ],
+    [
+      "N5",
+      "待つ",
+      "まつ · matsu",
+      "warten",
+      "駅で友達を待ちます。",
+      "Ich warte am Bahnhof auf einen Freund."
+    ],
+    [
+      "N5",
+      "持つ",
+      "もつ · motsu",
+      "halten / besitzen",
+      "かばんを持っています。",
+      "Ich habe eine Tasche dabei."
+    ],
+    [
+      "N5",
+      "使う",
+      "つかう · tsukau",
+      "benutzen",
+      "このペンを使います。",
+      "Ich benutze diesen Stift."
+    ],
+    [
+      "N5",
+      "作る",
+      "つくる · tsukuru",
+      "machen / herstellen",
+      "夕ご飯を作ります。",
+      "Ich mache Abendessen."
+    ],
+    [
+      "N5",
+      "入る",
+      "はいる · hairu",
+      "hineingehen",
+      "部屋に入ります。",
+      "Ich gehe ins Zimmer."
+    ],
+    [
+      "N5",
+      "出る",
+      "でる · deru",
+      "hinausgehen / verlassen",
+      "家を出ます。",
+      "Ich verlasse das Haus."
+    ],
+    [
+      "N5",
+      "座る",
+      "すわる · suwaru",
+      "sitzen",
+      "ここに座ってください。",
+      "Bitte setzen Sie sich hier."
+    ],
+    [
+      "N5",
+      "立つ",
+      "たつ · tatsu",
+      "stehen / aufstehen",
+      "立ってください。",
+      "Bitte stehen Sie auf."
+    ],
+    [
+      "N5",
+      "分かる",
+      "わかる · wakaru",
+      "verstehen",
+      "日本語が少し分かります。",
+      "Ich verstehe ein wenig Japanisch."
+    ],
+    [
+      "N5",
+      "教える",
+      "おしえる · oshieru",
+      "lehren / sagen",
+      "先生が日本語を教えます。",
+      "Der Lehrer unterrichtet Japanisch."
+    ],
+    [
+      "N5",
+      "習う",
+      "ならう · narau",
+      "lernen / Unterricht nehmen",
+      "日本語を習っています。",
+      "Ich lerne Japanisch im Unterricht."
+    ],
+    [
+      "N5",
+      "勉強する",
+      "べんきょうする · benkyō suru",
+      "lernen",
+      "毎日日本語を勉強します。",
+      "Ich lerne jeden Tag Japanisch."
+    ],
+    [
+      "N5",
+      "始める",
+      "はじめる · hajimeru",
+      "beginnen",
+      "勉強を始めます。",
+      "Ich beginne zu lernen."
+    ],
+    [
+      "N5",
+      "終わる",
+      "おわる · owaru",
+      "enden",
+      "仕事は五時に終わります。",
+      "Die Arbeit endet um fünf."
+    ],
+    [
+      "N5",
+      "住む",
+      "すむ · sumu",
+      "wohnen",
+      "東京に住んでいます。",
+      "Ich wohne in Tokio."
+    ],
+    [
+      "N5",
+      "歩く",
+      "あるく · aruku",
+      "zu Fuß gehen",
+      "駅まで歩きます。",
+      "Ich gehe zu Fuß zum Bahnhof."
+    ],
+    [
+      "N5",
+      "走る",
+      "はしる · hashiru",
+      "laufen",
+      "公園を走ります。",
+      "Ich laufe im Park."
+    ],
+    [
+      "N5",
+      "泳ぐ",
+      "およぐ · oyogu",
+      "schwimmen",
+      "海で泳ぎます。",
+      "Ich schwimme im Meer."
+    ],
+    [
+      "N5",
+      "乗る",
+      "のる · noru",
+      "einsteigen / fahren",
+      "電車に乗ります。",
+      "Ich fahre mit dem Zug."
+    ],
+    [
+      "N5",
+      "降りる",
+      "おりる · oriru",
+      "aussteigen",
+      "次の駅で降ります。",
+      "Ich steige an der nächsten Station aus."
+    ],
+    [
+      "N5",
+      "曲がる",
+      "まがる · magaru",
+      "abbiegen",
+      "右に曲がってください。",
+      "Bitte biegen Sie rechts ab."
+    ],
+    [
+      "N5",
+      "着く",
+      "つく · tsuku",
+      "ankommen",
+      "九時に駅に着きます。",
+      "Ich komme um neun am Bahnhof an."
+    ],
+    [
+      "N5",
+      "帰る",
+      "かえる · kaeru",
+      "zurückkehren",
+      "家に帰ります。",
+      "Ich gehe nach Hause."
+    ],
+    [
+      "N5",
+      "切る",
+      "きる · kiru",
+      "schneiden",
+      "紙を切ります。",
+      "Ich schneide Papier."
+    ],
+    [
+      "N5",
+      "洗う",
+      "あらう · arau",
+      "waschen",
+      "手を洗います。",
+      "Ich wasche meine Hände."
+    ],
+    [
+      "N5",
+      "掃除する",
+      "そうじする · sōji suru",
+      "putzen",
+      "部屋を掃除します。",
+      "Ich putze das Zimmer."
+    ],
+    [
+      "N5",
+      "料理する",
+      "りょうりする · ryōri suru",
+      "kochen",
+      "毎晩料理します。",
+      "Ich koche jeden Abend."
+    ],
+    [
+      "N5",
+      "電話する",
+      "でんわする · denwa suru",
+      "telefonieren",
+      "母に電話します。",
+      "Ich rufe meine Mutter an."
+    ],
+    [
+      "N5",
+      "買い物する",
+      "かいものする · kaimono suru",
+      "einkaufen",
+      "スーパーで買い物します。",
+      "Ich kaufe im Supermarkt ein."
+    ],
+    [
+      "N5",
+      "高い",
+      "たかい · takai",
+      "teuer / hoch",
+      "このかばんは高いです。",
+      "Diese Tasche ist teuer."
+    ],
+    [
+      "N5",
+      "安い",
+      "やすい · yasui",
+      "billig",
+      "この店は安いです。",
+      "Dieses Geschäft ist günstig."
+    ],
+    [
+      "N5",
+      "暑い",
+      "あつい · atsui",
+      "heiß",
+      "今日は暑いです。",
+      "Heute ist es heiß."
+    ],
+    [
+      "N5",
+      "寒い",
+      "さむい · samui",
+      "kalt",
+      "冬は寒いです。",
+      "Im Winter ist es kalt."
+    ],
+    [
+      "N5",
+      "暖かい",
+      "あたたかい · atatakai",
+      "warm",
+      "今日は暖かいです。",
+      "Heute ist es warm."
+    ],
+    [
+      "N5",
+      "涼しい",
+      "すずしい · suzushii",
+      "kühl / angenehm",
+      "夜は涼しいです。",
+      "Abends ist es angenehm kühl."
+    ],
+    [
+      "N5",
+      "難しい",
+      "むずかしい · muzukashii",
+      "schwierig",
+      "漢字は難しいです。",
+      "Kanji sind schwierig."
+    ],
+    [
+      "N5",
+      "易しい",
+      "やさしい · yasashii",
+      "einfach",
+      "この問題は易しいです。",
+      "Diese Aufgabe ist einfach."
+    ],
+    [
+      "N5",
+      "面白い",
+      "おもしろい · omoshiroi",
+      "interessant",
+      "この本は面白いです。",
+      "Dieses Buch ist interessant."
+    ],
+    [
+      "N5",
+      "忙しい",
+      "いそがしい · isogashii",
+      "beschäftigt",
+      "今日は忙しいです。",
+      "Heute bin ich beschäftigt."
+    ],
+    [
+      "N5",
+      "楽しい",
+      "たのしい · tanoshii",
+      "spaßig / angenehm",
+      "旅行は楽しいです。",
+      "Reisen macht Spaß."
+    ],
+    [
+      "N5",
+      "近い",
+      "ちかい · chikai",
+      "nah",
+      "駅は近いです。",
+      "Der Bahnhof ist nah."
+    ],
+    [
+      "N5",
+      "遠い",
+      "とおい · tōi",
+      "weit",
+      "学校は遠いです。",
+      "Die Schule ist weit weg."
+    ],
+    [
+      "N5",
+      "早い",
+      "はやい · hayai",
+      "früh / schnell",
+      "朝早く起きます。",
+      "Ich stehe früh auf."
+    ],
+    [
+      "N5",
+      "遅い",
+      "おそい · osoi",
+      "spät / langsam",
+      "電車が遅いです。",
+      "Der Zug ist langsam/spät."
+    ],
+    [
+      "N5",
+      "長い",
+      "ながい · nagai",
+      "lang",
+      "長い映画です。",
+      "Es ist ein langer Film."
+    ],
+    [
+      "N5",
+      "短い",
+      "みじかい · mijikai",
+      "kurz",
+      "短い休みです。",
+      "Es ist eine kurze Pause."
+    ],
+    [
+      "N5",
+      "白い",
+      "しろい · shiroi",
+      "weiß",
+      "白い車です。",
+      "Es ist ein weißes Auto."
+    ],
+    [
+      "N5",
+      "黒い",
+      "くろい · kuroi",
+      "schwarz",
+      "黒いかばんです。",
+      "Es ist eine schwarze Tasche."
+    ],
+    [
+      "N5",
+      "赤い",
+      "あかい · akai",
+      "rot",
+      "赤いりんごです。",
+      "Es ist ein roter Apfel."
+    ],
+    [
+      "N5",
+      "青い",
+      "あおい · aoi",
+      "blau",
+      "青い空です。",
+      "Der Himmel ist blau."
+    ],
+    [
+      "N5",
+      "好き",
+      "すき · suki",
+      "mögen",
+      "音楽が好きです。",
+      "Ich mag Musik."
+    ],
+    [
+      "N5",
+      "嫌い",
+      "きらい · kirai",
+      "nicht mögen",
+      "魚が嫌いです。",
+      "Ich mag Fisch nicht."
+    ],
+    [
+      "N5",
+      "元気",
+      "げんき · genki",
+      "gesund / fit",
+      "元気ですか。",
+      "Wie geht es dir?"
+    ],
+    [
+      "N5",
+      "静か",
+      "しずか · shizuka",
+      "ruhig",
+      "この部屋は静かです。",
+      "Dieses Zimmer ist ruhig."
+    ],
+    [
+      "N5",
+      "にぎやか",
+      "nigiyaka",
+      "lebhaft",
+      "町はにぎやかです。",
+      "Die Stadt ist lebhaft."
+    ],
+    [
+      "N5",
+      "きれい",
+      "kirei",
+      "schön / sauber",
+      "部屋はきれいです。",
+      "Das Zimmer ist sauber."
+    ],
+    [
+      "N5",
+      "便利",
+      "べんり · benri",
+      "praktisch",
+      "このアプリは便利です。",
+      "Diese App ist praktisch."
+    ],
+    [
+      "N5",
+      "不便",
+      "ふべん · fuben",
+      "unpraktisch",
+      "ここは少し不便です。",
+      "Hier ist es etwas unpraktisch."
+    ],
+    [
+      "N5",
+      "春",
+      "はる · haru",
+      "Frühling",
+      "春は暖かいです。",
+      "Im Frühling ist es warm."
+    ],
+    [
+      "N5",
+      "夏",
+      "なつ · natsu",
+      "Sommer",
+      "夏は暑いです。",
+      "Im Sommer ist es heiß."
+    ],
+    [
+      "N5",
+      "秋",
+      "あき · aki",
+      "Herbst",
+      "秋が好きです。",
+      "Ich mag den Herbst."
+    ],
+    [
+      "N5",
+      "冬",
+      "ふゆ · fuyu",
+      "Winter",
+      "冬は寒いです。",
+      "Im Winter ist es kalt."
+    ],
+    [
+      "N5",
+      "天気",
+      "てんき · tenki",
+      "Wetter",
+      "今日はいい天気です。",
+      "Heute ist gutes Wetter."
+    ],
+    [
+      "N5",
+      "雨",
+      "あめ · ame",
+      "Regen",
+      "雨が降っています。",
+      "Es regnet."
+    ],
+    [
+      "N5",
+      "雪",
+      "ゆき · yuki",
+      "Schnee",
+      "雪が降ります。",
+      "Es schneit."
+    ],
+    [
+      "N5",
+      "風",
+      "かぜ · kaze",
+      "Wind",
+      "風が強いです。",
+      "Der Wind ist stark."
+    ],
+    [
+      "N5",
+      "空",
+      "そら · sora",
+      "Himmel",
+      "空が青いです。",
+      "Der Himmel ist blau."
+    ],
+    [
+      "N5",
+      "海",
+      "うみ · umi",
+      "Meer",
+      "海で泳ぎます。",
+      "Ich schwimme im Meer."
+    ],
+    [
+      "N5",
+      "町",
+      "まち · machi",
+      "Stadt / Ort",
+      "この町は静かです。",
+      "Diese Stadt ist ruhig."
+    ],
+    [
+      "N5",
+      "国",
+      "くに · kuni",
+      "Land",
+      "どの国から来ましたか。",
+      "Aus welchem Land kommst du?"
+    ],
+    [
+      "N5",
+      "家",
+      "いえ · ie",
+      "Haus",
+      "家に帰ります。",
+      "Ich gehe nach Hause."
+    ],
+    [
+      "N5",
+      "部屋",
+      "へや · heya",
+      "Zimmer",
+      "部屋は二階です。",
+      "Das Zimmer ist im zweiten Stock."
+    ],
+    [
+      "N5",
+      "机",
+      "つくえ · tsukue",
+      "Schreibtisch",
+      "本は机の上です。",
+      "Das Buch liegt auf dem Schreibtisch."
+    ],
+    [
+      "N5",
+      "椅子",
+      "いす · isu",
+      "Stuhl",
+      "椅子に座ります。",
+      "Ich setze mich auf den Stuhl."
+    ],
+    [
+      "N5",
+      "窓",
+      "まど · mado",
+      "Fenster",
+      "窓を開けます。",
+      "Ich öffne das Fenster."
+    ],
+    [
+      "N5",
+      "ドア",
+      "doa",
+      "Tür",
+      "ドアを閉めます。",
+      "Ich schließe die Tür."
+    ],
+    [
+      "N5",
+      "本",
+      "ほん · hon",
+      "Buch",
+      "本を読みます。",
+      "Ich lese ein Buch."
+    ],
+    [
+      "N5",
+      "新聞",
+      "しんぶん · shinbun",
+      "Zeitung",
+      "新聞を読みます。",
+      "Ich lese Zeitung."
+    ],
+    [
+      "N5",
+      "手紙",
+      "てがみ · tegami",
+      "Brief",
+      "手紙を書きます。",
+      "Ich schreibe einen Brief."
+    ],
+    [
+      "N5",
+      "写真",
+      "しゃしん · shashin",
+      "Foto",
+      "写真を撮ります。",
+      "Ich mache ein Foto."
+    ],
+    [
+      "N5",
+      "時計",
+      "とけい · tokei",
+      "Uhr",
+      "時計を見ます。",
+      "Ich schaue auf die Uhr."
+    ],
+    [
+      "N5",
+      "電話",
+      "でんわ · denwa",
+      "Telefon",
+      "電話を使います。",
+      "Ich benutze das Telefon."
+    ],
+    [
+      "N5",
+      "車",
+      "くるま · kuruma",
+      "Auto",
+      "車で行きます。",
+      "Ich fahre mit dem Auto."
+    ],
+    [
+      "N5",
+      "電車",
+      "でんしゃ · densha",
+      "Zug",
+      "電車に乗ります。",
+      "Ich fahre mit dem Zug."
+    ],
+    [
+      "N5",
+      "自転車",
+      "じてんしゃ · jitensha",
+      "Fahrrad",
+      "自転車で学校へ行きます。",
+      "Ich fahre mit dem Fahrrad zur Schule."
+    ],
+    [
+      "N5",
+      "飛行機",
+      "ひこうき · hikōki",
+      "Flugzeug",
+      "飛行機で日本へ行きます。",
+      "Ich fliege nach Japan."
+    ],
+    [
+      "N5",
+      "食べ物",
+      "たべもの · tabemono",
+      "Essen / Lebensmittel",
+      "日本の食べ物が好きです。",
+      "Ich mag japanisches Essen."
+    ],
+    [
+      "N5",
+      "飲み物",
+      "のみもの · nomimono",
+      "Getränk",
+      "飲み物は何ですか。",
+      "Was möchtest du trinken?"
+    ],
+    [
+      "N5",
+      "肉",
+      "にく · niku",
+      "Fleisch",
+      "肉を食べます。",
+      "Ich esse Fleisch."
+    ],
+    [
+      "N5",
+      "魚",
+      "さかな · sakana",
+      "Fisch",
+      "魚が好きです。",
+      "Ich mag Fisch."
+    ],
+    [
+      "N5",
+      "野菜",
+      "やさい · yasai",
+      "Gemüse",
+      "野菜を食べます。",
+      "Ich esse Gemüse."
+    ],
+    [
+      "N5",
+      "果物",
+      "くだもの · kudamono",
+      "Obst",
+      "果物を買います。",
+      "Ich kaufe Obst."
+    ],
+    [
+      "N5",
+      "パン",
+      "pan",
+      "Brot",
+      "朝パンを食べます。",
+      "Morgens esse ich Brot."
+    ],
+    [
+      "N5",
+      "牛乳",
+      "ぎゅうにゅう · gyūnyū",
+      "Milch",
+      "牛乳を飲みます。",
+      "Ich trinke Milch."
+    ],
+    [
+      "N5",
+      "卵",
+      "たまご · tamago",
+      "Ei",
+      "卵を二つ買います。",
+      "Ich kaufe zwei Eier."
+    ],
+    [
+      "N5",
+      "お金",
+      "おかね · okane",
+      "Geld",
+      "お金があります。",
+      "Ich habe Geld."
+    ],
+    [
+      "N5",
+      "円",
+      "えん · en",
+      "Yen",
+      "千円です。",
+      "Es kostet 1000 Yen."
+    ],
+    [
+      "N5",
+      "時間",
+      "じかん · jikan",
+      "Zeit / Stunden",
+      "時間がありますか。",
+      "Hast du Zeit?"
+    ],
+    [
+      "N5",
+      "分",
+      "ふん / ぷん · fun / pun",
+      "Minute",
+      "十分待ってください。",
+      "Bitte warten Sie zehn Minuten."
+    ],
+    [
+      "N5",
+      "週",
+      "しゅう · shū",
+      "Woche",
+      "一週間休みます。",
+      "Ich habe eine Woche frei."
+    ],
+    [
+      "N5",
+      "月曜日",
+      "げつようび · getsuyōbi",
+      "Montag",
+      "月曜日に働きます。",
+      "Ich arbeite am Montag."
+    ],
+    [
+      "N5",
+      "火曜日",
+      "かようび · kayōbi",
+      "Dienstag",
+      "火曜日に勉強します。",
+      "Ich lerne am Dienstag."
+    ],
+    [
+      "N5",
+      "水曜日",
+      "すいようび · suiyōbi",
+      "Mittwoch",
+      "水曜日は休みです。",
+      "Mittwoch habe ich frei."
+    ],
+    [
+      "N5",
+      "木曜日",
+      "もくようび · mokuyōbi",
+      "Donnerstag",
+      "木曜日に会いましょう。",
+      "Treffen wir uns am Donnerstag."
+    ],
+    [
+      "N5",
+      "金曜日",
+      "きんようび · kin'yōbi",
+      "Freitag",
+      "金曜日は忙しいです。",
+      "Freitag bin ich beschäftigt."
+    ],
+    [
+      "N5",
+      "土曜日",
+      "どようび · doyōbi",
+      "Samstag",
+      "土曜日に買い物します。",
+      "Samstags gehe ich einkaufen."
+    ],
+    [
+      "N5",
+      "日曜日",
+      "にちようび · nichiyōbi",
+      "Sonntag",
+      "日曜日は休みます。",
+      "Sonntags ruhe ich mich aus."
+    ],
+    [
+      "N4",
+      "赤ちゃん",
+      "あかちゃん · akachan",
+      "Baby",
+      "赤ちゃんが寝ています。",
+      "Das Baby schläft."
+    ],
+    [
+      "N4",
+      "味",
+      "あじ · aji",
+      "Geschmack",
+      "このスープは味が薄いです。",
+      "Diese Suppe schmeckt mild."
+    ],
+    [
+      "N4",
+      "安心",
+      "あんしん · anshin",
+      "Beruhigung / Sicherheit",
+      "無事だと聞いて安心しました。",
+      "Ich war beruhigt, als ich hörte, dass alles in Ordnung ist."
+    ],
+    [
+      "N4",
+      "安全",
+      "あんぜん · anzen",
+      "Sicherheit",
+      "ここは安全です。",
+      "Hier ist es sicher."
+    ],
+    [
+      "N4",
+      "案内",
+      "あんない · annai",
+      "Führung / Information",
+      "駅まで案内します。",
+      "Ich zeige Ihnen den Weg zum Bahnhof."
+    ],
+    [
+      "N4",
+      "以下",
+      "いか · ika",
+      "höchstens / darunter",
+      "十歳以下は無料です。",
+      "Kinder bis zehn Jahre sind kostenlos."
+    ],
+    [
+      "N4",
+      "以外",
+      "いがい · igai",
+      "außer",
+      "日曜日以外は開いています。",
+      "Außer sonntags ist geöffnet."
+    ],
+    [
+      "N4",
+      "医学",
+      "いがく · igaku",
+      "Medizin",
+      "大学で医学を学んでいます。",
+      "Ich studiere Medizin an der Universität."
+    ],
+    [
+      "N4",
+      "意見",
+      "いけん · iken",
+      "Meinung",
+      "あなたの意見を聞きたいです。",
+      "Ich möchte Ihre Meinung hören."
+    ],
+    [
+      "N4",
+      "石",
+      "いし · ishi",
+      "Stein",
+      "道に大きな石があります。",
+      "Auf dem Weg liegt ein großer Stein."
+    ],
+    [
+      "N4",
+      "一度",
+      "いちど · ichido",
+      "einmal",
+      "一度日本へ行きたいです。",
+      "Ich möchte einmal nach Japan reisen."
+    ],
+    [
+      "N4",
+      "一生懸命",
+      "いっしょうけんめい · isshōkenmei",
+      "mit vollem Einsatz",
+      "一生懸命勉強しています。",
+      "Ich lerne sehr fleißig."
+    ],
+    [
+      "N4",
+      "受付",
+      "うけつけ · uketsuke",
+      "Empfang / Rezeption",
+      "受付で名前を書いてください。",
+      "Bitte schreiben Sie Ihren Namen an der Rezeption auf."
+    ],
+    [
+      "N4",
+      "腕",
+      "うで · ude",
+      "Arm",
+      "腕が痛いです。",
+      "Mein Arm tut weh."
+    ],
+    [
+      "N4",
+      "運転",
+      "うんてん · unten",
+      "Fahren",
+      "父は毎日車を運転します。",
+      "Mein Vater fährt jeden Tag Auto."
+    ],
+    [
+      "N4",
+      "運転手",
+      "うんてんしゅ · untenshu",
+      "Fahrer/in",
+      "バスの運転手です。",
+      "Er/Sie ist Busfahrer/in."
+    ],
+    [
+      "N4",
+      "駅員",
+      "えきいん · ekiin",
+      "Bahnhofsangestellte/r",
+      "駅員に聞きました。",
+      "Ich habe den Bahnhofsangestellten gefragt."
+    ],
+    [
+      "N4",
+      "枝",
+      "えだ · eda",
+      "Ast",
+      "木の枝に鳥がいます。",
+      "Auf einem Ast sitzt ein Vogel."
+    ],
+    [
+      "N4",
+      "遠慮",
+      "えんりょ · enryo",
+      "Zurückhaltung",
+      "遠慮しないでください。",
+      "Bitte seien Sie nicht zurückhaltend."
+    ],
+    [
+      "N4",
+      "お祝い",
+      "おいわい · oiwai",
+      "Feier / Glückwunsch",
+      "誕生日のお祝いをします。",
+      "Wir feiern Geburtstag."
+    ],
+    [
+      "N4",
+      "屋上",
+      "おくじょう · okujō",
+      "Dachterrasse",
+      "屋上から町が見えます。",
+      "Von der Dachterrasse sieht man die Stadt."
+    ],
+    [
+      "N4",
+      "贈り物",
+      "おくりもの · okurimono",
+      "Geschenk",
+      "友達に贈り物をしました。",
+      "Ich habe einem Freund ein Geschenk gemacht."
+    ],
+    [
+      "N4",
+      "お宅",
+      "おたく · otaku",
+      "Ihr Zuhause",
+      "明日お宅へ伺います。",
+      "Ich komme morgen zu Ihnen nach Hause."
+    ],
+    [
+      "N4",
+      "お土産",
+      "おみやげ · omiyage",
+      "Souvenir",
+      "家族にお土産を買いました。",
+      "Ich habe meiner Familie ein Souvenir gekauft."
+    ],
+    [
+      "N4",
+      "会議",
+      "かいぎ · kaigi",
+      "Besprechung",
+      "午後に会議があります。",
+      "Am Nachmittag gibt es eine Besprechung."
+    ],
+    [
+      "N4",
+      "会場",
+      "かいじょう · kaijō",
+      "Veranstaltungsort",
+      "会場は二階です。",
+      "Der Veranstaltungsort ist im zweiten Stock."
+    ],
+    [
+      "N4",
+      "会話",
+      "かいわ · kaiwa",
+      "Gespräch",
+      "日本語で会話を練習します。",
+      "Ich übe Gespräche auf Japanisch."
+    ],
+    [
+      "N4",
+      "帰り",
+      "かえり · kaeri",
+      "Rückweg",
+      "帰りにスーパーへ寄ります。",
+      "Auf dem Rückweg gehe ich noch zum Supermarkt."
+    ],
+    [
+      "N4",
+      "科学",
+      "かがく · kagaku",
+      "Wissenschaft",
+      "科学に興味があります。",
+      "Ich interessiere mich für Wissenschaft."
+    ],
+    [
+      "N4",
+      "鏡",
+      "かがみ · kagami",
+      "Spiegel",
+      "鏡を見ます。",
+      "Ich schaue in den Spiegel."
+    ],
+    [
+      "N4",
+      "飾る",
+      "かざる · kazaru",
+      "dekorieren",
+      "部屋に花を飾ります。",
+      "Ich dekoriere das Zimmer mit Blumen."
+    ],
+    [
+      "N4",
+      "ガス",
+      "gasu",
+      "Gas",
+      "ガスを止めてください。",
+      "Bitte stellen Sie das Gas ab."
+    ],
+    [
+      "N4",
+      "形",
+      "かたち · katachi",
+      "Form",
+      "この箱は変わった形です。",
+      "Diese Schachtel hat eine ungewöhnliche Form."
+    ],
+    [
+      "N4",
+      "片付ける",
+      "かたづける · katazukeru",
+      "aufräumen",
+      "部屋を片付けます。",
+      "Ich räume das Zimmer auf."
+    ],
+    [
+      "N4",
+      "勝つ",
+      "かつ · katsu",
+      "gewinnen",
+      "試合に勝ちました。",
+      "Wir haben das Spiel gewonnen."
+    ],
+    [
+      "N4",
+      "悲しい",
+      "かなしい · kanashii",
+      "traurig",
+      "その話を聞いて悲しくなりました。",
+      "Die Geschichte hat mich traurig gemacht."
+    ],
+    [
+      "N4",
+      "必ず",
+      "かならず · kanarazu",
+      "unbedingt / sicher",
+      "明日は必ず来てください。",
+      "Bitte kommen Sie morgen unbedingt."
+    ],
+    [
+      "N4",
+      "彼",
+      "かれ · kare",
+      "er / Freund",
+      "彼は会社員です。",
+      "Er ist Angestellter."
+    ],
+    [
+      "N4",
+      "彼女",
+      "かのじょ · kanojo",
+      "sie / Freundin",
+      "彼女は学生です。",
+      "Sie ist Studentin."
+    ],
+    [
+      "N4",
+      "乾く",
+      "かわく · kawaku",
+      "trocknen",
+      "服がまだ乾いていません。",
+      "Die Kleidung ist noch nicht trocken."
+    ],
+    [
+      "N4",
+      "変わる",
+      "かわる · kawaru",
+      "sich ändern",
+      "予定が変わりました。",
+      "Der Plan hat sich geändert."
+    ],
+    [
+      "N4",
+      "考える",
+      "かんがえる · kangaeru",
+      "denken / überlegen",
+      "少し考えてください。",
+      "Bitte denken Sie kurz darüber nach."
+    ],
+    [
+      "N4",
+      "関係",
+      "かんけい · kankei",
+      "Beziehung / Zusammenhang",
+      "仕事と生活は関係があります。",
+      "Arbeit und Leben hängen zusammen."
+    ],
+    [
+      "N4",
+      "看護師",
+      "かんごし · kangoshi",
+      "Pflegekraft",
+      "姉は看護師です。",
+      "Meine ältere Schwester ist Pflegekraft."
+    ],
+    [
+      "N4",
+      "簡単",
+      "かんたん · kantan",
+      "einfach",
+      "この問題は簡単です。",
+      "Diese Aufgabe ist einfach."
+    ],
+    [
+      "N4",
+      "気",
+      "き · ki",
+      "Gefühl / Aufmerksamkeit",
+      "気をつけてください。",
+      "Bitte passen Sie auf."
+    ],
+    [
+      "N4",
+      "機会",
+      "きかい · kikai",
+      "Gelegenheit",
+      "日本語を話す機会がありません。",
+      "Ich habe keine Gelegenheit, Japanisch zu sprechen."
+    ],
+    [
+      "N4",
+      "危険",
+      "きけん · kiken",
+      "Gefahr / gefährlich",
+      "ここは危険です。",
+      "Hier ist es gefährlich."
+    ],
+    [
+      "N4",
+      "聞こえる",
+      "きこえる · kikoeru",
+      "hörbar sein",
+      "音が聞こえます。",
+      "Man kann ein Geräusch hören."
+    ],
+    [
+      "N4",
+      "決まる",
+      "きまる · kimaru",
+      "entschieden werden",
+      "日程が決まりました。",
+      "Der Termin steht fest."
+    ],
+    [
+      "N4",
+      "決める",
+      "きめる · kimeru",
+      "entscheiden",
+      "旅行の日を決めます。",
+      "Ich entscheide den Reisetag."
+    ],
+    [
+      "N4",
+      "気持ち",
+      "きもち · kimochi",
+      "Gefühl",
+      "今の気持ちを話してください。",
+      "Bitte sprechen Sie über Ihr momentanes Gefühl."
+    ],
+    [
+      "N4",
+      "急",
+      "きゅう · kyū",
+      "plötzlich / dringend",
+      "急な予定が入りました。",
+      "Es ist kurzfristig ein Termin dazugekommen."
+    ],
+    [
+      "N4",
+      "急行",
+      "きゅうこう · kyūkō",
+      "Expresszug",
+      "急行に乗ります。",
+      "Ich nehme den Expresszug."
+    ],
+    [
+      "N4",
+      "教育",
+      "きょういく · kyōiku",
+      "Bildung / Erziehung",
+      "教育は大切です。",
+      "Bildung ist wichtig."
+    ],
+    [
+      "N4",
+      "興味",
+      "きょうみ · kyōmi",
+      "Interesse",
+      "日本文化に興味があります。",
+      "Ich interessiere mich für japanische Kultur."
+    ],
+    [
+      "N4",
+      "近所",
+      "きんじょ · kinjo",
+      "Nachbarschaft",
+      "近所に公園があります。",
+      "In der Nachbarschaft gibt es einen Park."
+    ],
+    [
+      "N4",
+      "具合",
+      "ぐあい · guai",
+      "Zustand / Befinden",
+      "体の具合はどうですか。",
+      "Wie geht es Ihnen körperlich?"
+    ],
+    [
+      "N4",
+      "空気",
+      "くうき · kūki",
+      "Luft",
+      "部屋の空気を入れ替えます。",
+      "Ich lüfte das Zimmer."
+    ],
+    [
+      "N4",
+      "空港",
+      "くうこう · kūkō",
+      "Flughafen",
+      "空港までバスで行きます。",
+      "Ich fahre mit dem Bus zum Flughafen."
+    ],
+    [
+      "N4",
+      "比べる",
+      "くらべる · kuraberu",
+      "vergleichen",
+      "二つの商品を比べます。",
+      "Ich vergleiche zwei Produkte."
+    ],
+    [
+      "N4",
+      "暮らす",
+      "くらす · kurasu",
+      "leben",
+      "家族と東京で暮らしています。",
+      "Ich lebe mit meiner Familie in Tokio."
+    ],
+    [
+      "N4",
+      "計画",
+      "けいかく · keikaku",
+      "Plan",
+      "旅行の計画を立てます。",
+      "Ich plane eine Reise."
+    ],
+    [
+      "N4",
+      "警察",
+      "けいさつ · keisatsu",
+      "Polizei",
+      "警察に電話しました。",
+      "Ich habe die Polizei angerufen."
+    ],
+    [
+      "N4",
+      "景色",
+      "けしき · keshiki",
+      "Landschaft / Aussicht",
+      "山の景色がきれいです。",
+      "Die Aussicht auf die Berge ist schön."
+    ],
+    [
+      "N4",
+      "原因",
+      "げんいん · gen'in",
+      "Ursache",
+      "事故の原因を調べます。",
+      "Wir untersuchen die Unfallursache."
+    ],
+    [
+      "N4",
+      "研究",
+      "けんきゅう · kenkyū",
+      "Forschung",
+      "大学で研究しています。",
+      "Ich forsche an der Universität."
+    ],
+    [
+      "N4",
+      "健康",
+      "けんこう · kenkō",
+      "Gesundheit",
+      "健康のために歩きます。",
+      "Ich gehe der Gesundheit zuliebe spazieren."
+    ],
+    [
+      "N4",
+      "見物",
+      "けんぶつ · kenbutsu",
+      "Besichtigung",
+      "京都を見物しました。",
+      "Ich habe Kyoto besichtigt."
+    ],
+    [
+      "N4",
+      "工場",
+      "こうじょう · kōjō",
+      "Fabrik",
+      "父は工場で働いています。",
+      "Mein Vater arbeitet in einer Fabrik."
+    ],
+    [
+      "N4",
+      "交通",
+      "こうつう · kōtsū",
+      "Verkehr",
+      "この町は交通が便利です。",
+      "Der Verkehr in dieser Stadt ist praktisch."
+    ],
+    [
+      "N4",
+      "答え",
+      "こたえ · kotae",
+      "Antwort",
+      "答えを書いてください。",
+      "Bitte schreiben Sie die Antwort."
+    ],
+    [
+      "N4",
+      "故障",
+      "こしょう · koshō",
+      "Defekt",
+      "エアコンが故障しました。",
+      "Die Klimaanlage ist kaputt."
+    ],
+    [
+      "N4",
+      "ご存じ",
+      "ごぞんじ · gozonji",
+      "kennen / wissen (höflich)",
+      "この店をご存じですか。",
+      "Kennen Sie dieses Geschäft?"
+    ],
+    [
+      "N4",
+      "込む",
+      "こむ · komu",
+      "überfüllt sein",
+      "電車が込んでいます。",
+      "Der Zug ist voll."
+    ],
+    [
+      "N4",
+      "怖い",
+      "こわい · kowai",
+      "ängstlich / unheimlich",
+      "夜道は少し怖いです。",
+      "Der Weg bei Nacht ist etwas unheimlich."
+    ],
+    [
+      "N4",
+      "壊す",
+      "こわす · kowasu",
+      "kaputt machen",
+      "時計を壊してしまいました。",
+      "Ich habe die Uhr kaputt gemacht."
+    ],
+    [
+      "N4",
+      "壊れる",
+      "こわれる · kowareru",
+      "kaputtgehen",
+      "パソコンが壊れました。",
+      "Der Computer ist kaputtgegangen."
+    ],
+    [
+      "N4",
+      "今度",
+      "こんど · kondo",
+      "nächstes Mal / diesmal",
+      "今度一緒に行きましょう。",
+      "Lass uns nächstes Mal zusammen gehen."
+    ],
+    [
+      "N4",
+      "最近",
+      "さいきん · saikin",
+      "in letzter Zeit",
+      "最近忙しいです。",
+      "In letzter Zeit bin ich beschäftigt."
+    ],
+    [
+      "N4",
+      "最後",
+      "さいご · saigo",
+      "letzte/r/s",
+      "最後のページを読みます。",
+      "Ich lese die letzte Seite."
+    ],
+    [
+      "N4",
+      "最初",
+      "さいしょ · saisho",
+      "erste/r/s",
+      "最初に名前を書きます。",
+      "Zuerst schreibe ich den Namen."
+    ],
+    [
+      "N4",
+      "坂",
+      "さか · saka",
+      "Hang / Steigung",
+      "この坂は急です。",
+      "Dieser Hang ist steil."
+    ],
+    [
+      "N4",
+      "探す",
+      "さがす · sagasu",
+      "suchen",
+      "鍵を探しています。",
+      "Ich suche den Schlüssel."
+    ],
+    [
+      "N4",
+      "下がる",
+      "さがる · sagaru",
+      "sinken",
+      "気温が下がりました。",
+      "Die Temperatur ist gesunken."
+    ],
+    [
+      "N4",
+      "下げる",
+      "さげる · sageru",
+      "senken",
+      "音を下げてください。",
+      "Bitte machen Sie leiser."
+    ],
+    [
+      "N4",
+      "差し上げる",
+      "さしあげる · sashiageru",
+      "geben (höflich)",
+      "先生にお土産を差し上げました。",
+      "Ich habe dem Lehrer ein Souvenir gegeben."
+    ],
+    [
+      "N4",
+      "十分",
+      "じゅうぶん · jūbun",
+      "genug / ausreichend",
+      "時間は十分あります。",
+      "Es ist genug Zeit da."
+    ],
+    [
+      "N4",
+      "自由",
+      "じゆう · jiyū",
+      "Freiheit / frei",
+      "自由に使ってください。",
+      "Bitte benutzen Sie es frei."
+    ],
+    [
+      "N4",
+      "習慣",
+      "しゅうかん · shūkan",
+      "Gewohnheit",
+      "毎朝歩く習慣があります。",
+      "Ich habe die Gewohnheit, jeden Morgen zu gehen."
+    ],
+    [
+      "N4",
+      "住所",
+      "じゅうしょ · jūsho",
+      "Adresse",
+      "住所を書いてください。",
+      "Bitte schreiben Sie Ihre Adresse."
+    ],
+    [
+      "N4",
+      "出発",
+      "しゅっぱつ · shuppatsu",
+      "Abfahrt / Abreise",
+      "七時に出発します。",
+      "Wir fahren um sieben ab."
+    ],
+    [
+      "N4",
+      "紹介",
+      "しょうかい · shōkai",
+      "Vorstellung / Einführung",
+      "友達を紹介します。",
+      "Ich stelle einen Freund vor."
+    ],
+    [
+      "N4",
+      "小説",
+      "しょうせつ · shōsetsu",
+      "Roman",
+      "日本の小説を読みます。",
+      "Ich lese einen japanischen Roman."
+    ],
+    [
+      "N4",
+      "将来",
+      "しょうらい · shōrai",
+      "Zukunft",
+      "将来日本で働きたいです。",
+      "Ich möchte später in Japan arbeiten."
+    ],
+    [
+      "N4",
+      "知らせる",
+      "しらせる · shiraseru",
+      "informieren",
+      "時間が決まったら知らせます。",
+      "Ich sage Bescheid, sobald die Zeit feststeht."
+    ],
+    [
+      "N4",
+      "調べる",
+      "しらべる · shiraberu",
+      "nachschlagen / untersuchen",
+      "辞書で意味を調べます。",
+      "Ich schlage die Bedeutung im Wörterbuch nach."
+    ],
+    [
+      "N4",
+      "人口",
+      "じんこう · jinkō",
+      "Bevölkerung",
+      "東京は人口が多いです。",
+      "Tokio hat eine große Bevölkerung."
+    ],
+    [
+      "N4",
+      "親切",
+      "しんせつ · shinsetsu",
+      "freundlich / hilfsbereit",
+      "店員はとても親切でした。",
+      "Der Verkäufer war sehr freundlich."
+    ],
+    [
+      "N4",
+      "心配",
+      "しんぱい · shinpai",
+      "Sorge",
+      "そんなに心配しないでください。",
+      "Bitte machen Sie sich nicht so viele Sorgen."
+    ],
+    [
+      "N4",
+      "進む",
+      "すすむ · susumu",
+      "vorangehen",
+      "工事が進んでいます。",
+      "Die Bauarbeiten kommen voran."
+    ],
+    [
+      "N4",
+      "進める",
+      "すすめる · susumeru",
+      "vorantreiben",
+      "計画を進めます。",
+      "Ich treibe den Plan voran."
+    ],
+    [
+      "N4",
+      "捨てる",
+      "すてる · suteru",
+      "wegwerfen",
+      "ごみを捨てます。",
+      "Ich werfe den Müll weg."
+    ],
+    [
+      "N4",
+      "生活",
+      "せいかつ · seikatsu",
+      "Leben / Alltag",
+      "日本の生活に慣れました。",
+      "Ich habe mich an das Leben in Japan gewöhnt."
+    ],
+    [
+      "N4",
+      "説明",
+      "せつめい · setsumei",
+      "Erklärung",
+      "使い方を説明します。",
+      "Ich erkläre die Benutzung."
+    ],
+    [
+      "N4",
+      "選ぶ",
+      "えらぶ · erabu",
+      "auswählen",
+      "好きなものを選んでください。",
+      "Bitte wählen Sie etwas aus, das Sie mögen."
+    ],
+    [
+      "N4",
+      "相談",
+      "そうだん · sōdan",
+      "Beratung / Besprechung",
+      "先生に相談します。",
+      "Ich bespreche es mit dem Lehrer."
+    ],
+    [
+      "N4",
+      "育てる",
+      "そだてる · sodateru",
+      "aufziehen / anbauen",
+      "庭で野菜を育てています。",
+      "Ich baue im Garten Gemüse an."
+    ],
+    [
+      "N4",
+      "卒業",
+      "そつぎょう · sotsugyō",
+      "Abschluss",
+      "来年大学を卒業します。",
+      "Nächstes Jahr mache ich meinen Uniabschluss."
+    ],
+    [
+      "N4",
+      "大体",
+      "だいたい · daitai",
+      "ungefähr / im Großen und Ganzen",
+      "大体分かりました。",
+      "Ich habe es ungefähr verstanden."
+    ],
+    [
+      "N4",
+      "確か",
+      "たしか · tashika",
+      "sicher / wenn ich mich recht erinnere",
+      "確か三時でした。",
+      "Wenn ich mich recht erinnere, war es drei Uhr."
+    ],
+    [
+      "N4",
+      "訪ねる",
+      "たずねる · tazuneru",
+      "besuchen",
+      "友達を訪ねます。",
+      "Ich besuche einen Freund."
+    ],
+    [
+      "N4",
+      "尋ねる",
+      "たずねる · tazuneru",
+      "fragen",
+      "駅員に道を尋ねました。",
+      "Ich fragte den Bahnhofsangestellten nach dem Weg."
+    ],
+    [
+      "N4",
+      "建てる",
+      "たてる · tateru",
+      "bauen",
+      "新しい家を建てています。",
+      "Sie bauen ein neues Haus."
+    ],
+    [
+      "N4",
+      "足りる",
+      "たりる · tariru",
+      "ausreichen",
+      "お金が足りません。",
+      "Das Geld reicht nicht."
+    ],
+    [
+      "N4",
+      "暖房",
+      "だんぼう · danbō",
+      "Heizung",
+      "暖房をつけます。",
+      "Ich schalte die Heizung ein."
+    ],
+    [
+      "N4",
+      "注意",
+      "ちゅうい · chūi",
+      "Vorsicht / Aufmerksamkeit",
+      "車に注意してください。",
+      "Bitte achten Sie auf Autos."
+    ],
+    [
+      "N4",
+      "駐車場",
+      "ちゅうしゃじょう · chūshajō",
+      "Parkplatz",
+      "駐車場はどこですか。",
+      "Wo ist der Parkplatz?"
+    ],
+    [
+      "N4",
+      "都合",
+      "つごう · tsugō",
+      "Umstände / Verfügbarkeit",
+      "明日は都合が悪いです。",
+      "Morgen passt es mir nicht."
+    ],
+    [
+      "N4",
+      "続く",
+      "つづく · tsuzuku",
+      "andauern",
+      "雨が三日続きました。",
+      "Der Regen dauerte drei Tage an."
+    ],
+    [
+      "N4",
+      "伝える",
+      "つたえる · tsutaeru",
+      "übermitteln",
+      "先生に伝えてください。",
+      "Bitte richten Sie es dem Lehrer aus."
+    ],
+    [
+      "N4",
+      "包む",
+      "つつむ · tsutsumu",
+      "einpacken",
+      "プレゼントを包みます。",
+      "Ich packe das Geschenk ein."
+    ],
+    [
+      "N4",
+      "丁寧",
+      "ていねい · teinei",
+      "höflich / sorgfältig",
+      "丁寧に書いてください。",
+      "Bitte schreiben Sie sorgfältig."
+    ],
+    [
+      "N4",
+      "適当",
+      "てきとう · tekitō",
+      "geeignet / passend",
+      "適当な時間を選んでください。",
+      "Bitte wählen Sie eine passende Zeit."
+    ],
+    [
+      "N4",
+      "手伝う",
+      "てつだう · tetsudau",
+      "helfen",
+      "母の料理を手伝います。",
+      "Ich helfe meiner Mutter beim Kochen."
+    ],
+    [
+      "N4",
+      "途中",
+      "とちゅう · tochū",
+      "unterwegs / mittendrin",
+      "途中で雨が降りました。",
+      "Unterwegs begann es zu regnen."
+    ],
+    [
+      "N4",
+      "届ける",
+      "とどける · todokeru",
+      "zustellen / bringen",
+      "荷物を家まで届けます。",
+      "Wir liefern das Paket bis nach Hause."
+    ],
+    [
+      "N4",
+      "泊まる",
+      "とまる · tomaru",
+      "übernachten",
+      "ホテルに泊まります。",
+      "Ich übernachte im Hotel."
+    ],
+    [
+      "N4",
+      "直す",
+      "なおす · naosu",
+      "reparieren / korrigieren",
+      "自転車を直します。",
+      "Ich repariere das Fahrrad."
+    ],
+    [
+      "N4",
+      "治る",
+      "なおる · naoru",
+      "heilen",
+      "風邪が治りました。",
+      "Meine Erkältung ist vorbei."
+    ],
+    [
+      "N4",
+      "治す",
+      "なおす · naosu",
+      "heilen / behandeln",
+      "病気を治します。",
+      "Ich behandle die Krankheit."
+    ],
+    [
+      "N4",
+      "慣れる",
+      "なれる · nareru",
+      "sich gewöhnen",
+      "日本の生活に慣れました。",
+      "Ich habe mich an das Leben in Japan gewöhnt."
+    ],
+    [
+      "N4",
+      "似る",
+      "にる · niru",
+      "ähnlich sein",
+      "母によく似ています。",
+      "Er/Sie sieht der Mutter sehr ähnlich."
+    ],
+    [
+      "N4",
+      "入院",
+      "にゅういん · nyūin",
+      "Krankenhausaufnahme",
+      "祖父が入院しました。",
+      "Mein Großvater wurde ins Krankenhaus aufgenommen."
+    ],
+    [
+      "N4",
+      "眠い",
+      "ねむい · nemui",
+      "schläfrig",
+      "今日はとても眠いです。",
+      "Heute bin ich sehr müde."
+    ],
+    [
+      "N4",
+      "残る",
+      "のこる · nokoru",
+      "übrig bleiben",
+      "料理が少し残りました。",
+      "Etwas Essen ist übrig geblieben."
+    ],
+    [
+      "N4",
+      "乗り換える",
+      "のりかえる · norikaeru",
+      "umsteigen",
+      "東京駅で乗り換えます。",
+      "Ich steige am Bahnhof Tokio um."
+    ],
+    [
+      "N4",
+      "場合",
+      "ばあい · baai",
+      "Fall / Situation",
+      "雨の場合は中止です。",
+      "Bei Regen fällt es aus."
+    ],
+    [
+      "N4",
+      "倍",
+      "ばい · bai",
+      "doppelt / -fach",
+      "値段が二倍になりました。",
+      "Der Preis hat sich verdoppelt."
+    ],
+    [
+      "N4",
+      "運ぶ",
+      "はこぶ · hakobu",
+      "tragen / transportieren",
+      "荷物を運びます。",
+      "Ich trage das Gepäck."
+    ],
+    [
+      "N4",
+      "始まる",
+      "はじまる · hajimaru",
+      "beginnen",
+      "映画は七時に始まります。",
+      "Der Film beginnt um sieben."
+    ],
+    [
+      "N4",
+      "発音",
+      "はつおん · hatsuon",
+      "Aussprache",
+      "発音を練習します。",
+      "Ich übe die Aussprache."
+    ],
+    [
+      "N4",
+      "払う",
+      "はらう · harau",
+      "bezahlen",
+      "カードで払います。",
+      "Ich bezahle mit Karte."
+    ],
+    [
+      "N4",
+      "冷える",
+      "ひえる · hieru",
+      "kalt werden",
+      "夜はかなり冷えます。",
+      "Nachts wird es ziemlich kalt."
+    ],
+    [
+      "N4",
+      "光",
+      "ひかり · hikari",
+      "Licht",
+      "窓から光が入ります。",
+      "Durch das Fenster fällt Licht herein."
+    ],
+    [
+      "N4",
+      "引っ越す",
+      "ひっこす · hikkosu",
+      "umziehen",
+      "来月大阪へ引っ越します。",
+      "Nächsten Monat ziehe ich nach Osaka."
+    ],
+    [
+      "N4",
+      "必要",
+      "ひつよう · hitsuyō",
+      "notwendig",
+      "パスポートが必要です。",
+      "Ein Reisepass ist notwendig."
+    ],
+    [
+      "N4",
+      "増える",
+      "ふえる · fueru",
+      "zunehmen",
+      "観光客が増えました。",
+      "Die Zahl der Touristen ist gestiegen."
+    ],
+    [
+      "N4",
+      "増やす",
+      "ふやす · fuyasu",
+      "erhöhen",
+      "勉強時間を増やします。",
+      "Ich erhöhe meine Lernzeit."
+    ],
+    [
+      "N4",
+      "復習",
+      "ふくしゅう · fukushū",
+      "Wiederholung",
+      "毎日復習します。",
+      "Ich wiederhole jeden Tag."
+    ],
+    [
+      "N4",
+      "普通",
+      "ふつう · futsū",
+      "normal / gewöhnlich",
+      "普通の電車に乗ります。",
+      "Ich nehme den normalen Zug."
+    ],
+    [
+      "N4",
+      "文化",
+      "ぶんか · bunka",
+      "Kultur",
+      "日本文化を勉強しています。",
+      "Ich lerne über japanische Kultur."
+    ],
+    [
+      "N4",
+      "変",
+      "へん · hen",
+      "seltsam",
+      "変な音がします。",
+      "Es gibt ein seltsames Geräusch."
+    ],
+    [
+      "N4",
+      "貿易",
+      "ぼうえき · bōeki",
+      "Handel",
+      "この国は貿易が盛んです。",
+      "In diesem Land ist der Handel stark."
+    ],
+    [
+      "N4",
+      "法律",
+      "ほうりつ · hōritsu",
+      "Gesetz",
+      "法律を守らなければなりません。",
+      "Man muss das Gesetz einhalten."
+    ],
+    [
+      "N4",
+      "間に合う",
+      "まにあう · maniau",
+      "rechtzeitig schaffen",
+      "電車に間に合いました。",
+      "Ich habe den Zug rechtzeitig erreicht."
+    ],
+    [
+      "N4",
+      "間違える",
+      "まちがえる · machigaeru",
+      "sich irren",
+      "答えを間違えました。",
+      "Ich habe die Antwort falsch gemacht."
+    ],
+    [
+      "N4",
+      "間違い",
+      "まちがい · machigai",
+      "Fehler",
+      "間違いを直してください。",
+      "Bitte korrigieren Sie den Fehler."
+    ],
+    [
+      "N4",
+      "周り",
+      "まわり · mawari",
+      "Umgebung",
+      "家の周りは静かです。",
+      "Die Umgebung des Hauses ist ruhig."
+    ],
+    [
+      "N4",
+      "見える",
+      "みえる · mieru",
+      "sichtbar sein",
+      "ここから山が見えます。",
+      "Von hier aus sieht man die Berge."
+    ],
+    [
+      "N4",
+      "見つける",
+      "みつける · mitsukeru",
+      "finden",
+      "いい店を見つけました。",
+      "Ich habe ein gutes Geschäft gefunden."
+    ],
+    [
+      "N4",
+      "迎える",
+      "むかえる · mukaeru",
+      "abholen / empfangen",
+      "駅まで友達を迎えに行きます。",
+      "Ich hole einen Freund am Bahnhof ab."
+    ],
+    [
+      "N4",
+      "珍しい",
+      "めずらしい · mezurashii",
+      "selten / ungewöhnlich",
+      "珍しい花を見ました。",
+      "Ich habe eine seltene Blume gesehen."
+    ],
+    [
+      "N4",
+      "申し込む",
+      "もうしこむ · mōshikomu",
+      "sich anmelden / beantragen",
+      "コースに申し込みました。",
+      "Ich habe mich für den Kurs angemeldet."
+    ],
+    [
+      "N4",
+      "戻る",
+      "もどる · modoru",
+      "zurückkehren",
+      "すぐ戻ります。",
+      "Ich komme gleich zurück."
+    ],
+    [
+      "N4",
+      "戻す",
+      "もどす · modosu",
+      "zurückstellen",
+      "本を棚に戻します。",
+      "Ich stelle das Buch ins Regal zurück."
+    ],
+    [
+      "N4",
+      "役に立つ",
+      "やくにたつ · yaku ni tatsu",
+      "nützlich sein",
+      "この辞書は役に立ちます。",
+      "Dieses Wörterbuch ist nützlich."
+    ],
+    [
+      "N4",
+      "予約",
+      "よやく · yoyaku",
+      "Reservierung",
+      "ホテルを予約しました。",
+      "Ich habe ein Hotel reserviert."
+    ],
+    [
+      "N4",
+      "理由",
+      "りゆう · riyū",
+      "Grund",
+      "理由を説明してください。",
+      "Bitte erklären Sie den Grund."
+    ],
+    [
+      "N4",
+      "利用",
+      "りよう · riyō",
+      "Nutzung",
+      "このサービスを利用します。",
+      "Ich nutze diesen Service."
+    ],
+    [
+      "N4",
+      "留学",
+      "りゅうがく · ryūgaku",
+      "Auslandsstudium",
+      "日本へ留学したいです。",
+      "Ich möchte in Japan studieren."
+    ],
+    [
+      "N4",
+      "両方",
+      "りょうほう · ryōhō",
+      "beide",
+      "両方好きです。",
+      "Ich mag beide."
+    ],
+    [
+      "N4",
+      "連絡",
+      "れんらく · renraku",
+      "Kontakt / Nachricht",
+      "後で連絡します。",
+      "Ich melde mich später."
+    ],
+    [
+      "N4",
+      "沸かす",
+      "わかす · wakasu",
+      "zum Kochen bringen",
+      "お湯を沸かします。",
+      "Ich koche Wasser."
+    ],
+    [
+      "N4",
+      "笑う",
+      "わらう · warau",
+      "lachen",
+      "みんなで笑いました。",
+      "Wir haben alle gelacht."
+    ]
+  ]
+}
