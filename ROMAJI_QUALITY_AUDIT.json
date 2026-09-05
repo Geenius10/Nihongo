@@ -1,9 +1,0 @@
-{
-  "contentVersion": "9.0.0",
-  "cards": 967,
-  "cards_missing_front_or_example_romaji": 0,
-  "lesson_examples_missing_romaji": 0,
-  "romaji_map_entries": 1390,
-  "note": "Standard content audit retained from cleaned dataset; v19 UI requires Kana + Romaji on new custom cards.",
-  "packageVersion": "19.0.0"
-}
